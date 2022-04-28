@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"plus_slider_atlas_1", frames: [[0,287,152,154],[0,443,152,154],[0,599,152,154],[0,755,152,154],[154,287,152,154],[197,0,152,154],[154,443,152,154],[154,599,152,154],[154,755,152,154],[308,156,152,154],[351,0,152,154],[462,156,152,154],[505,0,152,154],[616,156,152,154],[659,0,152,154],[813,0,152,154],[770,156,152,154],[308,312,152,154],[308,468,152,154],[308,624,152,154],[308,780,152,154],[462,312,152,154],[616,312,152,154],[770,312,152,154],[462,468,152,154],[462,624,152,154],[462,780,152,154],[616,468,152,154],[770,468,152,154],[616,624,152,154],[0,0,195,285],[197,156,32,32]]}
+		{name:"minus_slider_atlas_1", frames: [[0,287,152,154],[0,443,152,154],[0,599,152,154],[0,755,152,154],[154,287,152,154],[197,0,152,154],[154,443,152,154],[154,599,152,154],[154,755,152,154],[308,156,152,154],[351,0,152,154],[462,156,152,154],[505,0,152,154],[616,156,152,154],[659,0,152,154],[813,0,152,154],[770,156,152,154],[308,312,152,154],[308,468,152,154],[308,624,152,154],[308,780,152,154],[462,312,152,154],[616,312,152,154],[770,312,152,154],[462,468,152,154],[462,624,152,154],[462,780,152,154],[616,468,152,154],[770,468,152,154],[616,624,152,154],[0,0,195,285],[197,156,32,32]]}
 ];
 
 
@@ -28,224 +28,224 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_60 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_58 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_56 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_54 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_52 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_50 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_48 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_46 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_44 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_42 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_40 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_38 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_36 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_34 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_32 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_30 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_28 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_26 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_24 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_22 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_20 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_18 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_16 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_14 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_59 = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.TextInput = function() {
-	this.initialize(ss["plus_slider_atlas_1"]);
+	this.initialize(ss["minus_slider_atlas_1"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -556,6 +556,37 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-11.4,-11.4,22.9,22.9);
 
 
+(lib.___Camera___ = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.visible = false;
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(2));
+
+	// cameraBoundary
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(2,1,1,3,true).p("EAq+AfQMhV7AAAMAAAg+fMBV7AAAg");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(2));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-401,-401,802,802);
+
+
 (lib.Slider = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -610,6 +641,33 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.Slider, new cjs.Rectangle(-12,-12.5,456.7,25.7), null);
+
+
+(lib.Scene_1_Node_Animation = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Node_Animation
+	this.nodule = new lib.node("synched",0);
+	this.nodule.name = "nodule";
+	this.nodule.setTransform(25.2,773.15,2.5599,2.5599,0,0,0,6,6.2);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#4A494A").ss(13.7,1,0,4).p("EhNRhNkIgBbCMgADAs3MgAGBTQMCa3AAA");
+	this.shape.setTransform(495.5716,303.475);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.nodule}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.Scene_1_Node_Animation, null, null);
 
 
 (lib.Bubbles = function(mode,startPosition,loop,reversed) {
@@ -986,8 +1044,70 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,-8.1,97.5,165.1);
 
 
+(lib.Scene_1_Draw_Curve = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Draw_Curve
+	this.slider = new lib.Slider();
+	this.slider.name = "slider";
+	this.slider.setTransform(408.55,257.6,1.648,1.648,0,0,0,216.8,1);
+
+	this.beaker = new lib.flask_root();
+	this.beaker.name = "beaker";
+	this.beaker.setTransform(736.1,106.95,1,1,0,0,0,48.9,78.5);
+
+	this.pka = new cjs.Text("pKa:", "bold 32px 'Verdana'", "#0066CC");
+	this.pka.name = "pka";
+	this.pka.lineHeight = 41;
+	this.pka.lineWidth = 650;
+	this.pka.parent = this;
+	this.pka.setTransform(11.95,138.9);
+
+	this.oh = new cjs.Text("OH: ", "bold 32px 'Verdana'", "#0066CC");
+	this.oh.name = "oh";
+	this.oh.lineHeight = 41;
+	this.oh.lineWidth = 650;
+	this.oh.parent = this;
+	this.oh.setTransform(11.95,70.05);
+
+	this.ph = new cjs.Text("pH: ", "bold 32px 'Verdana'", "#0066CC");
+	this.ph.name = "ph";
+	this.ph.lineHeight = 41;
+	this.ph.lineWidth = 650;
+	this.ph.parent = this;
+	this.ph.setTransform(11.95,2);
+
+	this.y_marker = new lib.x_marker();
+	this.y_marker.name = "y_marker";
+	this.y_marker.setTransform(20.95,773.1,2.1144,1,0,0,0,472.6,0);
+	this.y_marker.alpha = 0.4297;
+
+	this.x_marker = new lib.y_marker();
+	this.x_marker.name = "x_marker";
+	this.x_marker.setTransform(21.7,773.1,1,2.7855);
+	this.x_marker.alpha = 0.4297;
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#4A494A").s().p("AAEAfIgFgGIgBgBIgCgBQgHgLgBgMQABgMAHgJIACgCIABgBIAFgFIAIgEIAABDQgEgBgEgCg");
+	this.shape.setTransform(709.95,177.3);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.x_marker},{t:this.y_marker},{t:this.ph},{t:this.oh},{t:this.pka},{t:this.beaker},{t:this.slider}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.Scene_1_Draw_Curve, null, null);
+
+
 // stage content:
-(lib.plus_slider = function(mode,startPosition,loop,reversed) {
+(lib.minus_slider = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -999,6 +1119,35 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	this.actionFrames = [0];
+	this.___GetDepth___ = function(obj) {
+		var depth = obj.depth;
+		var cameraObj = this.___camera___instance;
+		if(cameraObj && cameraObj.depth && obj.isAttachedToCamera)
+		{
+			depth += depth + cameraObj.depth;
+		}
+		return depth;
+		}
+	this.___needSorting___ = function() {
+		for (var i = 0; i < this.numChildren - 1; i++)
+		{
+			var prevDepth = this.___GetDepth___(this.getChildAt(i));
+			var nextDepth = this.___GetDepth___(this.getChildAt(i + 1));
+			if (prevDepth < nextDepth)
+				return true;
+		}
+		return false;
+	}
+	this.___sortFunction___ = function(obj1, obj2) {
+		return (this.exportRoot.___GetDepth___(obj2) - this.exportRoot.___GetDepth___(obj1));
+	}
+	this.on('tick', function (event){
+		var curTimeline = event.currentTarget;
+		if (curTimeline.___needSorting___()){
+			this.sortChildren(curTimeline.___sortFunction___);
+		}
+	});
+
 	this.isSingleFrame = false;
 	// timeline functions:
 	this.frame_0 = function() {
@@ -1008,6 +1157,14 @@ if (reversed == null) { reversed = false; }
 		if(this.totalFrames == 1) {
 			this.isSingleFrame = true;
 		}
+		this.nodule = this.Node_Animation.nodule;
+		this.x_marker = this.Draw_Curve.x_marker;
+		this.y_marker = this.Draw_Curve.y_marker;
+		this.ph = this.Draw_Curve.ph;
+		this.oh = this.Draw_Curve.oh;
+		this.pka = this.Draw_Curve.pka;
+		this.beaker = this.Draw_Curve.beaker;
+		this.slider = this.Draw_Curve.slider;
 		var _this = this;
 		
 		var ph_frame_number;
@@ -1017,7 +1174,7 @@ if (reversed == null) { reversed = false; }
 		this.slider.addEventListener("pressmove", updatepKa);
 		
 		function updatepKa () {
-			pka = _this.slider.currentValue;
+			pka = 12;
 		}
 		
 		function playBeaker () {
@@ -1053,9 +1210,9 @@ if (reversed == null) { reversed = false; }
 					_this.y_marker.y = map1.get(Number(e.localX).toFixed());
 					
 					//value print out
-					_this.ph.text = "pH: " + Number(getScaledValue(_this.x_marker.y, 0, 800, 14, 1)).toFixed(2);
-					_this.oh.text = "OH: " + Number(getScaledValue(_this.y_marker.x, 0, 800, 0, 1)).toFixed(2);
-					_this.pka.text = "pKa: " + Number(pka).toFixed(2);
+					_this.ph.text = "pH: " + getScaledValue(_this.x_marker.y, 0, 800, 14, 1);
+					_this.oh.text = "OH: " + getScaledValue(_this.y_marker.x, 0, 800, 0, 1);
+					_this.pka.text = "pKa: " + pka;
 				}
 				//console.log("x : ", _this.nodule.x);
 				//console.log("y: ", _this.nodule.y);
@@ -1158,9 +1315,9 @@ if (reversed == null) { reversed = false; }
 			stage.stageMouseMoveHandler = function(e)
 			{
 				console.log("do you print me?");
-				pka = slider.currentValue;
+				//pka = slider.currentValue;
 				//removeGraph();
-				drawGraph();
+				//drawGraph();
 				slider.positionFromMouseX();	
 			};
 		
@@ -1196,8 +1353,6 @@ if (reversed == null) { reversed = false; }
 		};
 				
 		setTimeout(root.start, 0); //this delays the start time of the slider by n ms
-		//plot titration curve for pka + log(OH/H) at a constant titration of 0.02.
-		
 		var _this = this;
 		
 		var constant_titration = 0.0002; //could be a button press that shifts 
@@ -1243,7 +1398,7 @@ if (reversed == null) { reversed = false; }
 			//pka = document.getElementById("pka").value;
 			
 			//hard coded values for test plot
-			pka = _this.slider.currentValue;
+			pka = 4.75;
 			var base = 0.0;
 			var acid_moles = 0.1;
 		
@@ -1277,89 +1432,65 @@ if (reversed == null) { reversed = false; }
 			}
 		}
 		
-		
-		function removeGraph() {
-			_this.removeAllChildren();
-		}
+		//plot titration curve for pka + log(OH/H) at a constant titration of 0.02.
+		drawGraph();
 	}
 
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
-	// Node_Animation
-	this.nodule = new lib.node("synched",0);
-	this.nodule.name = "nodule";
-	this.nodule.setTransform(816.25,1566.9,2.5598,2.5598,0,0,0,6,6.2);
+	// Camera
+	this.___camera___instance = new lib.___Camera___();
+	this.___camera___instance.name = "___camera___instance";
+	this.___camera___instance.setTransform(400,400,0.9971,0.9971);
+	this.___camera___instance.depth = 0;
+	this.___camera___instance.visible = false;
 
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#4A494A").ss(13.7,1,0,4).p("EhNQhNkIgCbCMgADAs3MgADA1TIgCd9MCa2AAA");
-	this.shape.setTransform(1286.6964,1097.325);
+	this.timeline.addTween(cjs.Tween.get(this.___camera___instance).wait(1));
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.nodule}]}).wait(1));
+	// Node_Animation_obj_
+	this.Node_Animation = new lib.Scene_1_Node_Animation();
+	this.Node_Animation.name = "Node_Animation";
+	this.Node_Animation.setTransform(495.5,303.45,1.0029,1.0029,0,0,0,495.2,303.7);
+	this.Node_Animation.depth = 0;
+	this.Node_Animation.isAttachedToCamera = 0
+	this.Node_Animation.isAttachedToMask = 0
+	this.Node_Animation.layerDepth = 0
+	this.Node_Animation.layerIndex = 0
+	this.Node_Animation.maskLayerName = 0
 
-	// Draw_Curve
-	this.slider = new lib.Slider();
-	this.slider.name = "slider";
-	this.slider.setTransform(1199.55,1051.35,1.6479,1.6479,0,0,0,216.8,1);
+	this.timeline.addTween(cjs.Tween.get(this.Node_Animation).wait(1));
 
-	this.beaker = new lib.flask_root();
-	this.beaker.name = "beaker";
-	this.beaker.setTransform(1527.25,900.7,1,1,0,0,0,49,78.5);
+	// Draw_Curve_obj_
+	this.Draw_Curve = new lib.Scene_1_Draw_Curve();
+	this.Draw_Curve.name = "Draw_Curve";
+	this.Draw_Curve.setTransform(-97.9,881,1.0029,1.0029,0,0,0,-96.5,879.6);
+	this.Draw_Curve.depth = 0;
+	this.Draw_Curve.isAttachedToCamera = 0
+	this.Draw_Curve.isAttachedToMask = 0
+	this.Draw_Curve.layerDepth = 0
+	this.Draw_Curve.layerIndex = 1
+	this.Draw_Curve.maskLayerName = 0
 
-	this.pka = new cjs.Text("pKa:", "bold 32px 'Verdana'", "#0066CC");
-	this.pka.name = "pka";
-	this.pka.lineHeight = 41;
-	this.pka.lineWidth = 650;
-	this.pka.parent = this;
-	this.pka.setTransform(803,932.65);
-
-	this.oh = new cjs.Text("OH: ", "bold 32px 'Verdana'", "#0066CC");
-	this.oh.name = "oh";
-	this.oh.lineHeight = 41;
-	this.oh.lineWidth = 650;
-	this.oh.parent = this;
-	this.oh.setTransform(803,863.8);
-
-	this.ph = new cjs.Text("pH: ", "bold 32px 'Verdana'", "#0066CC");
-	this.ph.name = "ph";
-	this.ph.lineHeight = 41;
-	this.ph.lineWidth = 650;
-	this.ph.parent = this;
-	this.ph.setTransform(803,795.75);
-
-	this.y_marker = new lib.x_marker();
-	this.y_marker.name = "y_marker";
-	this.y_marker.setTransform(812.15,1566.95,2.1143,1,0,0,0,472.6,0.1);
-	this.y_marker.alpha = 0.4297;
-
-	this.x_marker = new lib.y_marker();
-	this.x_marker.name = "x_marker";
-	this.x_marker.setTransform(812.85,1567.15,1,2.7854,0,0,0,0.1,0.1);
-	this.x_marker.alpha = 0.4297;
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#4A494A").s().p("AAFAeIgGgEIgBgBIgBgCQgJgLAAgMQAAgMAJgJIABgCIABgBIAGgFIAIgEIAABDQgFgBgDgDg");
-	this.shape_1.setTransform(1501.1,971.15);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.x_marker},{t:this.y_marker},{t:this.ph},{t:this.oh},{t:this.pka},{t:this.beaker},{t:this.slider}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.Draw_Curve).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(799.9,1581.5,989.1999999999999,974.1999999999998);
+p.nominalBounds = new cjs.Rectangle(-580.4,200.2,1578.4,1561.8);
 // library properties:
 lib.properties = {
 	id: 'B3C897D70ADC42149E183D9D099C24FD',
-	width: 1978,
-	height: 1975,
+	width: 800,
+	height: 800,
 	fps: 24,
 	color: "#66CCFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/plus_slider_atlas_1.png?1651183391805", id:"plus_slider_atlas_1"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1651183391835", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1651183391835", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1651183391835", id:"an.TextInput"}
+		{src:"images/minus_slider_atlas_1.png?1651178723733", id:"minus_slider_atlas_1"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1651178723766", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1651178723766", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1651178723766", id:"an.TextInput"}
 	],
 	preloads: []
 };
@@ -1415,7 +1546,101 @@ an.getComposition = function(id) {
 	return an.compositions[id];
 }
 
-
+p._getProjectionMatrix = function(container, totalDepth) {	var focalLength = 528.25;
+	var projectionCenter = { x : lib.properties.width/2, y : lib.properties.height/2 };
+	var scale = (totalDepth + focalLength)/focalLength;
+	var scaleMat = new createjs.Matrix2D;
+	scaleMat.a = 1/scale;
+	scaleMat.d = 1/scale;
+	var projMat = new createjs.Matrix2D;
+	projMat.tx = -projectionCenter.x;
+	projMat.ty = -projectionCenter.y;
+	projMat = projMat.prependMatrix(scaleMat);
+	projMat.tx += projectionCenter.x;
+	projMat.ty += projectionCenter.y;
+	return projMat;
+}
+p._handleTick = function(event) {
+	var cameraInstance = exportRoot.___camera___instance;
+	if(cameraInstance !== undefined && cameraInstance.pinToObject !== undefined)
+	{
+		cameraInstance.x = cameraInstance.pinToObject.x + cameraInstance.pinToObject.pinOffsetX;
+		cameraInstance.y = cameraInstance.pinToObject.y + cameraInstance.pinToObject.pinOffsetY;
+		if(cameraInstance.pinToObject.parent !== undefined && cameraInstance.pinToObject.parent.depth !== undefined)
+		cameraInstance.depth = cameraInstance.pinToObject.parent.depth + cameraInstance.pinToObject.pinOffsetZ;
+	}
+	stage._applyLayerZDepth(exportRoot);
+}
+p._applyLayerZDepth = function(parent)
+{
+	var cameraInstance = parent.___camera___instance;
+	var focalLength = 528.25;
+	var projectionCenter = { 'x' : 0, 'y' : 0};
+	if(parent === exportRoot)
+	{
+		var stageCenter = { 'x' : lib.properties.width/2, 'y' : lib.properties.height/2 };
+		projectionCenter.x = stageCenter.x;
+		projectionCenter.y = stageCenter.y;
+	}
+	for(child in parent.children)
+	{
+		var layerObj = parent.children[child];
+		if(layerObj == cameraInstance)
+			continue;
+		stage._applyLayerZDepth(layerObj, cameraInstance);
+		if(layerObj.layerDepth === undefined)
+			continue;
+		if(layerObj.currentFrame != layerObj.parent.currentFrame)
+		{
+			layerObj.gotoAndPlay(layerObj.parent.currentFrame);
+		}
+		var matToApply = new createjs.Matrix2D;
+		var cameraMat = new createjs.Matrix2D;
+		var totalDepth = layerObj.layerDepth ? layerObj.layerDepth : 0;
+		var cameraDepth = 0;
+		if(cameraInstance && !layerObj.isAttachedToCamera)
+		{
+			var mat = cameraInstance.getMatrix();
+			mat.tx -= projectionCenter.x;
+			mat.ty -= projectionCenter.y;
+			cameraMat = mat.invert();
+			cameraMat.prependTransform(projectionCenter.x, projectionCenter.y, 1, 1, 0, 0, 0, 0, 0);
+			cameraMat.appendTransform(-projectionCenter.x, -projectionCenter.y, 1, 1, 0, 0, 0, 0, 0);
+			if(cameraInstance.depth)
+				cameraDepth = cameraInstance.depth;
+		}
+		if(layerObj.depth)
+		{
+			totalDepth = layerObj.depth;
+		}
+		//Offset by camera depth
+		totalDepth -= cameraDepth;
+		if(totalDepth < -focalLength)
+		{
+			matToApply.a = 0;
+			matToApply.d = 0;
+		}
+		else
+		{
+			if(layerObj.layerDepth)
+			{
+				var sizeLockedMat = stage._getProjectionMatrix(parent, layerObj.layerDepth);
+				if(sizeLockedMat)
+				{
+					sizeLockedMat.invert();
+					matToApply.prependMatrix(sizeLockedMat);
+				}
+			}
+			matToApply.prependMatrix(cameraMat);
+			var projMat = stage._getProjectionMatrix(parent, totalDepth);
+			if(projMat)
+			{
+				matToApply.prependMatrix(projMat);
+			}
+		}
+		layerObj.transformMatrix = matToApply;
+	}
+}
 an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers) {		
 	var lastW, lastH, lastS=1;		
 	window.addEventListener('resize', resizeCanvas);		
@@ -1451,6 +1676,251 @@ an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers)
 		stage.tickOnUpdate = false;            
 		stage.update();            
 		stage.tickOnUpdate = true;		
+	}
+}
+
+// Virtual camera API : 
+
+an.VirtualCamera = new function() {
+var _camera = new Object();
+function VC(timeline) {
+	this.timeline = timeline;
+	this.camera = timeline.___camera___instance;
+	this.centerX = lib.properties.width / 2;
+	this.centerY = lib.properties.height / 2;
+	this.camAxisX = this.camera.x;
+	this.camAxisY = this.camera.y;
+	if(timeline.___camera___instance == null || timeline.___camera___instance == undefined ) {
+		timeline.___camera___instance = new cjs.MovieClip();
+		timeline.___camera___instance.visible = false;
+		timeline.___camera___instance.parent = timeline;
+		timeline.___camera___instance.setTransform(this.centerX, this.centerY);
+	}
+	this.camera = timeline.___camera___instance;
+}
+
+VC.prototype.moveBy = function(x, y, z) {
+z = typeof z !== 'undefined' ? z : 0;
+	var position = this.___getCamPosition___();
+	var rotAngle = this.getRotation()*Math.PI/180;
+	var sinTheta = Math.sin(rotAngle);
+	var cosTheta = Math.cos(rotAngle);
+	var offX= x*cosTheta + y*sinTheta;
+	var offY = y*cosTheta - x*sinTheta;
+	this.camAxisX = this.camAxisX - x;
+	this.camAxisY = this.camAxisY - y;
+	var posX = position.x + offX;
+	var posY = position.y + offY;
+	this.camera.x = this.centerX - posX;
+	this.camera.y = this.centerY - posY;
+	this.camera.depth += z;
+};
+
+VC.prototype.setPosition = function(x, y, z) {
+	z = typeof z !== 'undefined' ? z : 0;
+
+	const MAX_X = 10000;
+	const MIN_X = -10000;
+	const MAX_Y = 10000;
+	const MIN_Y = -10000;
+	const MAX_Z = 10000;
+	const MIN_Z = -5000;
+
+	if(x > MAX_X)
+	  x = MAX_X;
+	else if(x < MIN_X)
+	  x = MIN_X;
+	if(y > MAX_Y)
+	  y = MAX_Y;
+	else if(y < MIN_Y)
+	  y = MIN_Y;
+	if(z > MAX_Z)
+	  z = MAX_Z;
+	else if(z < MIN_Z)
+	  z = MIN_Z;
+
+	var rotAngle = this.getRotation()*Math.PI/180;
+	var sinTheta = Math.sin(rotAngle);
+	var cosTheta = Math.cos(rotAngle);
+	var offX= x*cosTheta + y*sinTheta;
+	var offY = y*cosTheta - x*sinTheta;
+	
+	this.camAxisX = this.centerX - x;
+	this.camAxisY = this.centerY - y;
+	this.camera.x = this.centerX - offX;
+	this.camera.y = this.centerY - offY;
+	this.camera.depth = z;
+};
+
+VC.prototype.getPosition = function() {
+	var loc = new Object();
+	loc['x'] = this.centerX - this.camAxisX;
+	loc['y'] = this.centerY - this.camAxisY;
+	loc['z'] = this.camera.depth;
+	return loc;
+};
+
+VC.prototype.resetPosition = function() {
+	this.setPosition(0, 0);
+};
+
+VC.prototype.zoomBy = function(zoom) {
+	this.setZoom( (this.getZoom() * zoom) / 100);
+};
+
+VC.prototype.setZoom = function(zoom) {
+	const MAX_zoom = 10000;
+	const MIN_zoom = 1;
+	if(zoom > MAX_zoom)
+	zoom = MAX_zoom;
+	else if(zoom < MIN_zoom)
+	zoom = MIN_zoom;
+	this.camera.scaleX = 100 / zoom;
+	this.camera.scaleY = 100 / zoom;
+};
+
+VC.prototype.getZoom = function() {
+	return 100 / this.camera.scaleX;
+};
+
+VC.prototype.resetZoom = function() {
+	this.setZoom(100);
+};
+
+VC.prototype.rotateBy = function(angle) {
+	this.setRotation( this.getRotation() + angle );
+};
+
+VC.prototype.setRotation = function(angle) {
+	const MAX_angle = 180;
+	const MIN_angle = -179;
+	if(angle > MAX_angle)
+		angle = MAX_angle;
+	else if(angle < MIN_angle)
+		angle = MIN_angle;
+	this.camera.rotation = -angle;
+};
+
+VC.prototype.getRotation = function() {
+	return -this.camera.rotation;
+};
+
+VC.prototype.resetRotation = function() {
+	this.setRotation(0);
+};
+
+VC.prototype.reset = function() {
+	this.resetPosition();
+	this.resetZoom();
+	this.resetRotation();
+	this.unpinCamera();
+};
+VC.prototype.setZDepth = function(zDepth) {
+	const MAX_zDepth = 10000;
+	const MIN_zDepth = -5000;
+	if(zDepth > MAX_zDepth)
+		zDepth = MAX_zDepth;
+	else if(zDepth < MIN_zDepth)
+		zDepth = MIN_zDepth;
+	this.camera.depth = zDepth;
+}
+VC.prototype.getZDepth = function() {
+	return this.camera.depth;
+}
+VC.prototype.resetZDepth = function() {
+	this.camera.depth = 0;
+}
+
+VC.prototype.pinCameraToObject = function(obj, offsetX, offsetY, offsetZ) {
+
+	offsetX = typeof offsetX !== 'undefined' ? offsetX : 0;
+
+	offsetY = typeof offsetY !== 'undefined' ? offsetY : 0;
+
+	offsetZ = typeof offsetZ !== 'undefined' ? offsetZ : 0;
+	if(obj === undefined)
+		return;
+	this.camera.pinToObject = obj;
+	this.camera.pinToObject.pinOffsetX = offsetX;
+	this.camera.pinToObject.pinOffsetY = offsetY;
+	this.camera.pinToObject.pinOffsetZ = offsetZ;
+};
+
+VC.prototype.setPinOffset = function(offsetX, offsetY, offsetZ) {
+	if(this.camera.pinToObject != undefined) {
+	this.camera.pinToObject.pinOffsetX = offsetX;
+	this.camera.pinToObject.pinOffsetY = offsetY;
+	this.camera.pinToObject.pinOffsetZ = offsetZ;
+	}
+};
+
+VC.prototype.unpinCamera = function() {
+	this.camera.pinToObject = undefined;
+};
+VC.prototype.___getCamPosition___ = function() {
+	var loc = new Object();
+	loc['x'] = this.centerX - this.camera.x;
+	loc['y'] = this.centerY - this.camera.y;
+	loc['z'] = this.depth;
+	return loc;
+};
+
+this.getCamera = function(timeline) {
+	timeline = typeof timeline !== 'undefined' ? timeline : null;
+	if(timeline === null) timeline = exportRoot;
+	if(_camera[timeline] == undefined)
+	_camera[timeline] = new VC(timeline);
+	return _camera[timeline];
+}
+
+this.getCameraAsMovieClip = function(timeline) {
+	timeline = typeof timeline !== 'undefined' ? timeline : null;
+	if(timeline === null) timeline = exportRoot;
+	return this.getCamera(timeline).camera;
+}
+}
+
+
+// Layer depth API : 
+
+an.Layer = new function() {
+	this.getLayerZDepth = function(timeline, layerName)
+	{
+		if(layerName === "Camera")
+		layerName = "___camera___instance";
+		var script = "if(timeline." + layerName + ") timeline." + layerName + ".depth; else 0;";
+		return eval(script);
+	}
+	this.setLayerZDepth = function(timeline, layerName, zDepth)
+	{
+		const MAX_zDepth = 10000;
+		const MIN_zDepth = -5000;
+		if(zDepth > MAX_zDepth)
+			zDepth = MAX_zDepth;
+		else if(zDepth < MIN_zDepth)
+			zDepth = MIN_zDepth;
+		if(layerName === "Camera")
+		layerName = "___camera___instance";
+		var script = "if(timeline." + layerName + ") timeline." + layerName + ".depth = " + zDepth + ";";
+		eval(script);
+	}
+	this.removeLayer = function(timeline, layerName)
+	{
+		if(layerName === "Camera")
+		layerName = "___camera___instance";
+		var script = "if(timeline." + layerName + ") timeline.removeChild(timeline." + layerName + ");";
+		eval(script);
+	}
+	this.addNewLayer = function(timeline, layerName, zDepth)
+	{
+		if(layerName === "Camera")
+		layerName = "___camera___instance";
+		zDepth = typeof zDepth !== 'undefined' ? zDepth : 0;
+		var layer = new createjs.MovieClip();
+		layer.name = layerName;
+		layer.depth = zDepth;
+		layer.layerIndex = 0;
+		timeline.addChild(layer);
 	}
 }
 function _updateVisibility(evt) {
