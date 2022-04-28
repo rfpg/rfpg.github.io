@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"minus_slider_atlas_1", frames: [[0,287,152,154],[0,443,152,154],[0,599,152,154],[0,755,152,154],[154,287,152,154],[197,0,152,154],[154,443,152,154],[154,599,152,154],[154,755,152,154],[308,156,152,154],[351,0,152,154],[462,156,152,154],[505,0,152,154],[616,156,152,154],[659,0,152,154],[813,0,152,154],[770,156,152,154],[308,312,152,154],[308,468,152,154],[308,624,152,154],[308,780,152,154],[462,312,152,154],[616,312,152,154],[770,312,152,154],[462,468,152,154],[462,624,152,154],[462,780,152,154],[616,468,152,154],[770,468,152,154],[616,624,152,154],[0,0,195,285],[197,156,32,32]]}
+		{name:"plus_slider_atlas_1", frames: [[0,287,152,154],[0,443,152,154],[0,599,152,154],[0,755,152,154],[154,287,152,154],[197,0,152,154],[154,443,152,154],[154,599,152,154],[154,755,152,154],[308,156,152,154],[351,0,152,154],[462,156,152,154],[505,0,152,154],[616,156,152,154],[659,0,152,154],[813,0,152,154],[770,156,152,154],[308,312,152,154],[308,468,152,154],[308,624,152,154],[308,780,152,154],[462,312,152,154],[616,312,152,154],[770,312,152,154],[462,468,152,154],[462,624,152,154],[462,780,152,154],[616,468,152,154],[770,468,152,154],[616,624,152,154],[0,0,195,285],[197,156,32,32]]}
 ];
 
 
@@ -28,224 +28,224 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_232 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_230 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_228 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_226 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_224 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_222 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_220 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_218 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_216 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_214 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_212 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_210 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_208 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_206 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_204 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_202 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_200 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_198 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_196 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_194 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_192 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_190 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_188 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_186 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_184 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_182 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_180 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_178 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_176 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_174 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_231 = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.TextInput = function() {
-	this.initialize(ss["minus_slider_atlas_1"]);
+	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -1107,7 +1107,7 @@ if (reversed == null) { reversed = false; }
 
 
 // stage content:
-(lib.minus_slider = function(mode,startPosition,loop,reversed) {
+(lib.plus_slider = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1487,7 +1487,7 @@ lib.properties = {
 	color: "#66CCFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/minus_slider_atlas_1.png", id:"minus_slider_atlas_1"},
+		{src:"images/plus_slider_atlas_1.png", id:"plus_slider_atlas_1"},
 		{src:"https://code.jquery.com/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
 		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
 		{src:"components/ui/src/textinput.js", id:"an.TextInput"}
