@@ -1356,10 +1356,10 @@ lib.properties = {
 	color: "#66CCFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/plus_slider_atlas_1.png?1651183391805", id:"plus_slider_atlas_1"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1651183391835", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1651183391835", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1651183391835", id:"an.TextInput"}
+		{src:"images/plus_slider_atlas_1.png?1651189101138", id:"plus_slider_atlas_1"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1651189101192", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1651189101192", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1651189101192", id:"an.TextInput"}
 	],
 	preloads: []
 };
