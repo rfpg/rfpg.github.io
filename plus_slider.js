@@ -27,217 +27,217 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_3841 = function() {
+(lib.CachedBmp_4861 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3839 = function() {
+(lib.CachedBmp_4859 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3837 = function() {
+(lib.CachedBmp_4857 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3835 = function() {
+(lib.CachedBmp_4855 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3833 = function() {
+(lib.CachedBmp_4853 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3831 = function() {
+(lib.CachedBmp_4851 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3829 = function() {
+(lib.CachedBmp_4849 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3827 = function() {
+(lib.CachedBmp_4847 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3825 = function() {
+(lib.CachedBmp_4845 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3823 = function() {
+(lib.CachedBmp_4843 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3821 = function() {
+(lib.CachedBmp_4841 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3819 = function() {
+(lib.CachedBmp_4839 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3817 = function() {
+(lib.CachedBmp_4837 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3815 = function() {
+(lib.CachedBmp_4835 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3813 = function() {
+(lib.CachedBmp_4833 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3811 = function() {
+(lib.CachedBmp_4831 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3809 = function() {
+(lib.CachedBmp_4829 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3807 = function() {
+(lib.CachedBmp_4827 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3805 = function() {
+(lib.CachedBmp_4825 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3803 = function() {
+(lib.CachedBmp_4823 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3801 = function() {
+(lib.CachedBmp_4821 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3799 = function() {
+(lib.CachedBmp_4819 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3797 = function() {
+(lib.CachedBmp_4817 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3795 = function() {
+(lib.CachedBmp_4815 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3793 = function() {
+(lib.CachedBmp_4813 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3791 = function() {
+(lib.CachedBmp_4811 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3789 = function() {
+(lib.CachedBmp_4809 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3787 = function() {
+(lib.CachedBmp_4807 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3785 = function() {
+(lib.CachedBmp_4805 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3783 = function() {
+(lib.CachedBmp_4803 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3840 = function() {
+(lib.CachedBmp_4860 = function() {
 	this.initialize(ss["plus_slider_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
@@ -280,7 +280,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FF0000").s().p("AgGbxQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGZ5QgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGYBQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGWJQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGURQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGSZQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGQhQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGOpQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGMxQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGK5QgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGJBQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGHJQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGFRQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGDZQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGBhQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGgWQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGiOQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGkGQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGl+QgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGn2QgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGpuQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGrmQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGteQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGvWQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGxOQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgGzGQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgG0+QgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgG22QgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgG4uQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDgAgG6mQgDgDAAgEIAAg8QAAgEADgDQADgDADAAQAEAAADADQADADAAAEIAAA8QAAAEgDADQgDADgEAAQgDAAgDgDg");
+	this.shape.graphics.beginFill("#FF0000").beginStroke().moveTo(-0.7,177.7).curveTo(-1,177.4,-1,177).lineTo(-1,171).curveTo(-1,170.6,-0.7,170.3).curveTo(-0.4,170,0,170).curveTo(0.4,170,0.7,170.3).curveTo(1,170.6,1,171).lineTo(1,177).curveTo(1,177.4,0.7,177.7).curveTo(0.4,178,0,178).curveTo(-0.4,178,-0.7,177.7).closePath().moveTo(-0.7,165.7).curveTo(-1,165.4,-1,165).lineTo(-1,159).curveTo(-1,158.6,-0.7,158.3).curveTo(-0.4,158,0,158).curveTo(0.4,158,0.7,158.3).curveTo(1,158.6,1,159).lineTo(1,165).curveTo(1,165.4,0.7,165.7).curveTo(0.4,166,0,166).curveTo(-0.4,166,-0.7,165.7).closePath().moveTo(-0.7,153.7).curveTo(-1,153.4,-1,153).lineTo(-1,147).curveTo(-1,146.6,-0.7,146.3).curveTo(-0.4,146,0,146).curveTo(0.4,146,0.7,146.3).curveTo(1,146.6,1,147).lineTo(1,153).curveTo(1,153.4,0.7,153.7).curveTo(0.4,154,0,154).curveTo(-0.4,154,-0.7,153.7).closePath().moveTo(-0.7,141.7).curveTo(-1,141.4,-1,141).lineTo(-1,135).curveTo(-1,134.6,-0.7,134.3).curveTo(-0.4,134,0,134).curveTo(0.4,134,0.7,134.3).curveTo(1,134.6,1,135).lineTo(1,141).curveTo(1,141.4,0.7,141.7).curveTo(0.4,142,0,142).curveTo(-0.4,142,-0.7,141.7).closePath().moveTo(-0.7,129.7).curveTo(-1,129.4,-1,129).lineTo(-1,123).curveTo(-1,122.6,-0.7,122.3).curveTo(-0.4,122,0,122).curveTo(0.4,122,0.7,122.3).curveTo(1,122.6,1,123).lineTo(1,129).curveTo(1,129.4,0.7,129.7).curveTo(0.4,130,0,130).curveTo(-0.4,130,-0.7,129.7).closePath().moveTo(-0.7,117.7).curveTo(-1,117.4,-1,117).lineTo(-1,111).curveTo(-1,110.6,-0.7,110.3).curveTo(-0.4,110,0,110).curveTo(0.4,110,0.7,110.3).curveTo(1,110.6,1,111).lineTo(1,117).curveTo(1,117.4,0.7,117.7).curveTo(0.4,118,0,118).curveTo(-0.4,118,-0.7,117.7).closePath().moveTo(-0.7,105.7).curveTo(-1,105.4,-1,105).lineTo(-1,99).curveTo(-1,98.6,-0.7,98.3).curveTo(-0.4,98,0,98).curveTo(0.4,98,0.7,98.3).curveTo(1,98.6,1,99).lineTo(1,105).curveTo(1,105.4,0.7,105.7).curveTo(0.4,106,0,106).curveTo(-0.4,106,-0.7,105.7).closePath().moveTo(-0.7,93.7).curveTo(-1,93.4,-1,93).lineTo(-1,87).curveTo(-1,86.6,-0.7,86.3).curveTo(-0.4,86,0,86).curveTo(0.4,86,0.7,86.3).curveTo(1,86.6,1,87).lineTo(1,93).curveTo(1,93.4,0.7,93.7).curveTo(0.4,94,0,94).curveTo(-0.4,94,-0.7,93.7).closePath().moveTo(-0.7,81.7).curveTo(-1,81.4,-1,81).lineTo(-1,75).curveTo(-1,74.6,-0.7,74.3).curveTo(-0.4,74,0,74).curveTo(0.4,74,0.7,74.3).curveTo(1,74.6,1,75).lineTo(1,81).curveTo(1,81.4,0.7,81.7).curveTo(0.4,82,0,82).curveTo(-0.4,82,-0.7,81.7).closePath().moveTo(-0.7,69.7).curveTo(-1,69.4,-1,69).lineTo(-1,63).curveTo(-1,62.6,-0.7,62.3).curveTo(-0.4,62,0,62).curveTo(0.4,62,0.7,62.3).curveTo(1,62.6,1,63).lineTo(1,69).curveTo(1,69.4,0.7,69.7).curveTo(0.4,70,0,70).curveTo(-0.4,70,-0.7,69.7).closePath().moveTo(-0.7,57.7).curveTo(-1,57.4,-1,57).lineTo(-1,51).curveTo(-1,50.6,-0.7,50.3).curveTo(-0.4,50,0,50).curveTo(0.4,50,0.7,50.3).curveTo(1,50.6,1,51).lineTo(1,57).curveTo(1,57.4,0.7,57.7).curveTo(0.4,58,0,58).curveTo(-0.4,58,-0.7,57.7).closePath().moveTo(-0.7,45.7).curveTo(-1,45.4,-1,45).lineTo(-1,39).curveTo(-1,38.6,-0.7,38.3).curveTo(-0.4,38,0,38).curveTo(0.4,38,0.7,38.3).curveTo(1,38.6,1,39).lineTo(1,45).curveTo(1,45.4,0.7,45.7).curveTo(0.4,46,0,46).curveTo(-0.4,46,-0.7,45.7).closePath().moveTo(-0.7,33.7).curveTo(-1,33.4,-1,33).lineTo(-1,27).curveTo(-1,26.6,-0.7,26.3).curveTo(-0.4,26,0,26).curveTo(0.4,26,0.7,26.3).curveTo(1,26.6,1,27).lineTo(1,33).curveTo(1,33.4,0.7,33.7).curveTo(0.4,34,0,34).curveTo(-0.4,34,-0.7,33.7).closePath().moveTo(-0.7,21.7).curveTo(-1,21.4,-1,21).lineTo(-1,15).curveTo(-1,14.6,-0.7,14.3).curveTo(-0.4,14,0,14).curveTo(0.4,14,0.7,14.3).curveTo(1,14.6,1,15).lineTo(1,21).curveTo(1,21.4,0.7,21.7).curveTo(0.4,22,0,22).curveTo(-0.4,22,-0.7,21.7).closePath().moveTo(-0.7,9.7).curveTo(-1,9.4,-1,9).lineTo(-1,3).curveTo(-1,2.6,-0.7,2.3).curveTo(-0.4,2,0,2).curveTo(0.4,2,0.7,2.3).curveTo(1,2.6,1,3).lineTo(1,9).curveTo(1,9.4,0.7,9.7).curveTo(0.4,10,0,10).curveTo(-0.4,10,-0.7,9.7).closePath().moveTo(-0.7,-2.3).curveTo(-1,-2.6,-1,-3).lineTo(-1,-9).curveTo(-1,-9.4,-0.7,-9.7).curveTo(-0.4,-10,0,-10).curveTo(0.4,-10,0.7,-9.7).curveTo(1,-9.4,1,-9).lineTo(1,-3).curveTo(1,-2.6,0.7,-2.3).curveTo(0.4,-2,0,-2).curveTo(-0.4,-2,-0.7,-2.3).closePath().moveTo(-0.7,-14.3).curveTo(-1,-14.6,-1,-15).lineTo(-1,-21).curveTo(-1,-21.4,-0.7,-21.7).curveTo(-0.4,-22,0,-22).curveTo(0.4,-22,0.7,-21.7).curveTo(1,-21.4,1,-21).lineTo(1,-15).curveTo(1,-14.6,0.7,-14.3).curveTo(0.4,-14,0,-14).curveTo(-0.4,-14,-0.7,-14.3).closePath().moveTo(-0.7,-26.3).curveTo(-1,-26.6,-1,-27).lineTo(-1,-33).curveTo(-1,-33.4,-0.7,-33.7).curveTo(-0.4,-34,0,-34).curveTo(0.4,-34,0.7,-33.7).curveTo(1,-33.4,1,-33).lineTo(1,-27).curveTo(1,-26.6,0.7,-26.3).curveTo(0.4,-26,0,-26).curveTo(-0.4,-26,-0.7,-26.3).closePath().moveTo(-0.7,-38.3).curveTo(-1,-38.6,-1,-39).lineTo(-1,-45).curveTo(-1,-45.4,-0.7,-45.7).curveTo(-0.4,-46,0,-46).curveTo(0.4,-46,0.7,-45.7).curveTo(1,-45.4,1,-45).lineTo(1,-39).curveTo(1,-38.6,0.7,-38.3).curveTo(0.4,-38,0,-38).curveTo(-0.4,-38,-0.7,-38.3).closePath().moveTo(-0.7,-50.3).curveTo(-1,-50.6,-1,-51).lineTo(-1,-57).curveTo(-1,-57.4,-0.7,-57.7).curveTo(-0.4,-58,0,-58).curveTo(0.4,-58,0.7,-57.7).curveTo(1,-57.4,1,-57).lineTo(1,-51).curveTo(1,-50.6,0.7,-50.3).curveTo(0.4,-50,0,-50).curveTo(-0.4,-50,-0.7,-50.3).closePath().moveTo(-0.7,-62.3).curveTo(-1,-62.6,-1,-63).lineTo(-1,-69).curveTo(-1,-69.4,-0.7,-69.7).curveTo(-0.4,-70,0,-70).curveTo(0.4,-70,0.7,-69.7).curveTo(1,-69.4,1,-69).lineTo(1,-63).curveTo(1,-62.6,0.7,-62.3).curveTo(0.4,-62,0,-62).curveTo(-0.4,-62,-0.7,-62.3).closePath().moveTo(-0.7,-74.3).curveTo(-1,-74.6,-1,-75).lineTo(-1,-81).curveTo(-1,-81.4,-0.7,-81.7).curveTo(-0.4,-82,0,-82).curveTo(0.4,-82,0.7,-81.7).curveTo(1,-81.4,1,-81).lineTo(1,-75).curveTo(1,-74.6,0.7,-74.3).curveTo(0.4,-74,0,-74).curveTo(-0.4,-74,-0.7,-74.3).closePath().moveTo(-0.7,-86.3).curveTo(-1,-86.6,-1,-87).lineTo(-1,-93).curveTo(-1,-93.4,-0.7,-93.7).curveTo(-0.4,-94,0,-94).curveTo(0.4,-94,0.7,-93.7).curveTo(1,-93.4,1,-93).lineTo(1,-87).curveTo(1,-86.6,0.7,-86.3).curveTo(0.4,-86,0,-86).curveTo(-0.4,-86,-0.7,-86.3).closePath().moveTo(-0.7,-98.3).curveTo(-1,-98.6,-1,-99).lineTo(-1,-105).curveTo(-1,-105.4,-0.7,-105.7).curveTo(-0.4,-106,0,-106).curveTo(0.4,-106,0.7,-105.7).curveTo(1,-105.4,1,-105).lineTo(1,-99).curveTo(1,-98.6,0.7,-98.3).curveTo(0.4,-98,0,-98).curveTo(-0.4,-98,-0.7,-98.3).closePath().moveTo(-0.7,-110.3).curveTo(-1,-110.6,-1,-111).lineTo(-1,-117).curveTo(-1,-117.4,-0.7,-117.7).curveTo(-0.4,-118,0,-118).curveTo(0.4,-118,0.7,-117.7).curveTo(1,-117.4,1,-117).lineTo(1,-111).curveTo(1,-110.6,0.7,-110.3).curveTo(0.4,-110,0,-110).curveTo(-0.4,-110,-0.7,-110.3).closePath().moveTo(-0.7,-122.3).curveTo(-1,-122.6,-1,-123).lineTo(-1,-129).curveTo(-1,-129.4,-0.7,-129.7).curveTo(-0.4,-130,0,-130).curveTo(0.4,-130,0.7,-129.7).curveTo(1,-129.4,1,-129).lineTo(1,-123).curveTo(1,-122.6,0.7,-122.3).curveTo(0.4,-122,0,-122).curveTo(-0.4,-122,-0.7,-122.3).closePath().moveTo(-0.7,-134.3).curveTo(-1,-134.6,-1,-135).lineTo(-1,-141).curveTo(-1,-141.4,-0.7,-141.7).curveTo(-0.4,-142,0,-142).curveTo(0.4,-142,0.7,-141.7).curveTo(1,-141.4,1,-141).lineTo(1,-135).curveTo(1,-134.6,0.7,-134.3).curveTo(0.4,-134,0,-134).curveTo(-0.4,-134,-0.7,-134.3).closePath().moveTo(-0.7,-146.3).curveTo(-1,-146.6,-1,-147).lineTo(-1,-153).curveTo(-1,-153.4,-0.7,-153.7).curveTo(-0.4,-154,0,-154).curveTo(0.4,-154,0.7,-153.7).curveTo(1,-153.4,1,-153).lineTo(1,-147).curveTo(1,-146.6,0.7,-146.3).curveTo(0.4,-146,0,-146).curveTo(-0.4,-146,-0.7,-146.3).closePath().moveTo(-0.7,-158.3).curveTo(-1,-158.6,-1,-159).lineTo(-1,-165).curveTo(-1,-165.4,-0.7,-165.7).curveTo(-0.4,-166,0,-166).curveTo(0.4,-166,0.7,-165.7).curveTo(1,-165.4,1,-165).lineTo(1,-159).curveTo(1,-158.6,0.7,-158.3).curveTo(0.4,-158,0,-158).curveTo(-0.4,-158,-0.7,-158.3).closePath().moveTo(-0.7,-170.3).curveTo(-1,-170.6,-1,-171).lineTo(-1,-177).curveTo(-1,-177.4,-0.7,-177.7).curveTo(-0.4,-178,0,-178).curveTo(0.4,-178,0.7,-177.7).curveTo(1,-177.4,1,-177).lineTo(1,-171).curveTo(1,-170.6,0.7,-170.3).curveTo(0.4,-170,0,-170).curveTo(-0.4,-170,-0.7,-170.3).closePath();
 	this.shape.setTransform(0,177);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -303,7 +303,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FF0000").s().p("EAkLAAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIAyAAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgEAiTAAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgEAgbAAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAejAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAcrAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAazAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAY7AKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAXDAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAVLAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgATTAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgARbAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAPjAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgANrAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgALzAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAJ7AKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAIDAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAGLAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAETAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgACbAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAAjAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAhUAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAjMAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAlEAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAm8AKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAo0AKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAqsAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAskAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAucAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAwUAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgAyMAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgA0EAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgA18AKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgA30AKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgA5sAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgA7kAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgA9cAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgA/UAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgEghMAAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgEgjEAAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAgEgk8AAKQgEAAgDgDQgDgDAAgEQAAgDADgDQADgDAEAAIA8AAQAEAAADADQADADAAADQAAAEgDADQgDADgEAAg");
+	this.shape.graphics.beginFill("#FF0000").beginStroke().moveTo(231.5,1).curveTo(231.1,1,230.8,0.7).curveTo(230.5,0.4,230.5,0).curveTo(230.5,-0.4,230.8,-0.7).curveTo(231.1,-1,231.5,-1).lineTo(236.5,-1).curveTo(236.9,-1,237.2,-0.7).curveTo(237.5,-0.4,237.5,0).curveTo(237.5,0.4,237.2,0.7).curveTo(236.9,1,236.5,1).closePath().moveTo(219.5,1).curveTo(219.1,1,218.8,0.7).curveTo(218.5,0.4,218.5,0).curveTo(218.5,-0.4,218.8,-0.7).curveTo(219.1,-1,219.5,-1).lineTo(225.5,-1).curveTo(225.9,-1,226.2,-0.7).curveTo(226.5,-0.4,226.5,0).curveTo(226.5,0.4,226.2,0.7).curveTo(225.9,1,225.5,1).closePath().moveTo(207.5,1).curveTo(207.1,1,206.8,0.7).curveTo(206.5,0.4,206.5,0).curveTo(206.5,-0.4,206.8,-0.7).curveTo(207.1,-1,207.5,-1).lineTo(213.5,-1).curveTo(213.9,-1,214.2,-0.7).curveTo(214.5,-0.4,214.5,0).curveTo(214.5,0.4,214.2,0.7).curveTo(213.9,1,213.5,1).closePath().moveTo(195.5,1).curveTo(195.1,1,194.8,0.7).curveTo(194.5,0.4,194.5,0).curveTo(194.5,-0.4,194.8,-0.7).curveTo(195.1,-1,195.5,-1).lineTo(201.5,-1).curveTo(201.9,-1,202.2,-0.7).curveTo(202.5,-0.4,202.5,0).curveTo(202.5,0.4,202.2,0.7).curveTo(201.9,1,201.5,1).closePath().moveTo(183.5,1).curveTo(183.1,1,182.8,0.7).curveTo(182.5,0.4,182.5,0).curveTo(182.5,-0.4,182.8,-0.7).curveTo(183.1,-1,183.5,-1).lineTo(189.5,-1).curveTo(189.9,-1,190.2,-0.7).curveTo(190.5,-0.4,190.5,0).curveTo(190.5,0.4,190.2,0.7).curveTo(189.9,1,189.5,1).closePath().moveTo(171.5,1).curveTo(171.1,1,170.8,0.7).curveTo(170.5,0.4,170.5,0).curveTo(170.5,-0.4,170.8,-0.7).curveTo(171.1,-1,171.5,-1).lineTo(177.5,-1).curveTo(177.9,-1,178.2,-0.7).curveTo(178.5,-0.4,178.5,0).curveTo(178.5,0.4,178.2,0.7).curveTo(177.9,1,177.5,1).closePath().moveTo(159.5,1).curveTo(159.1,1,158.8,0.7).curveTo(158.5,0.4,158.5,0).curveTo(158.5,-0.4,158.8,-0.7).curveTo(159.1,-1,159.5,-1).lineTo(165.5,-1).curveTo(165.9,-1,166.2,-0.7).curveTo(166.5,-0.4,166.5,0).curveTo(166.5,0.4,166.2,0.7).curveTo(165.9,1,165.5,1).closePath().moveTo(147.5,1).curveTo(147.1,1,146.8,0.7).curveTo(146.5,0.4,146.5,0).curveTo(146.5,-0.4,146.8,-0.7).curveTo(147.1,-1,147.5,-1).lineTo(153.5,-1).curveTo(153.9,-1,154.2,-0.7).curveTo(154.5,-0.4,154.5,0).curveTo(154.5,0.4,154.2,0.7).curveTo(153.9,1,153.5,1).closePath().moveTo(135.5,1).curveTo(135.1,1,134.8,0.7).curveTo(134.5,0.4,134.5,0).curveTo(134.5,-0.4,134.8,-0.7).curveTo(135.1,-1,135.5,-1).lineTo(141.5,-1).curveTo(141.9,-1,142.2,-0.7).curveTo(142.5,-0.4,142.5,0).curveTo(142.5,0.4,142.2,0.7).curveTo(141.9,1,141.5,1).closePath().moveTo(123.5,1).curveTo(123.1,1,122.8,0.7).curveTo(122.5,0.4,122.5,0).curveTo(122.5,-0.4,122.8,-0.7).curveTo(123.1,-1,123.5,-1).lineTo(129.5,-1).curveTo(129.9,-1,130.2,-0.7).curveTo(130.5,-0.4,130.5,0).curveTo(130.5,0.4,130.2,0.7).curveTo(129.9,1,129.5,1).closePath().moveTo(111.5,1).curveTo(111.1,1,110.8,0.7).curveTo(110.5,0.4,110.5,0).curveTo(110.5,-0.4,110.8,-0.7).curveTo(111.1,-1,111.5,-1).lineTo(117.5,-1).curveTo(117.9,-1,118.2,-0.7).curveTo(118.5,-0.4,118.5,0).curveTo(118.5,0.4,118.2,0.7).curveTo(117.9,1,117.5,1).closePath().moveTo(99.5,1).curveTo(99.1,1,98.8,0.7).curveTo(98.5,0.4,98.5,0).curveTo(98.5,-0.4,98.8,-0.7).curveTo(99.1,-1,99.5,-1).lineTo(105.5,-1).curveTo(105.9,-1,106.2,-0.7).curveTo(106.5,-0.4,106.5,0).curveTo(106.5,0.4,106.2,0.7).curveTo(105.9,1,105.5,1).closePath().moveTo(87.5,1).curveTo(87.1,1,86.8,0.7).curveTo(86.5,0.4,86.5,0).curveTo(86.5,-0.4,86.8,-0.7).curveTo(87.1,-1,87.5,-1).lineTo(93.5,-1).curveTo(93.9,-1,94.2,-0.7).curveTo(94.5,-0.4,94.5,0).curveTo(94.5,0.4,94.2,0.7).curveTo(93.9,1,93.5,1).closePath().moveTo(75.5,1).curveTo(75.1,1,74.8,0.7).curveTo(74.5,0.4,74.5,0).curveTo(74.5,-0.4,74.8,-0.7).curveTo(75.1,-1,75.5,-1).lineTo(81.5,-1).curveTo(81.9,-1,82.2,-0.7).curveTo(82.5,-0.4,82.5,0).curveTo(82.5,0.4,82.2,0.7).curveTo(81.9,1,81.5,1).closePath().moveTo(63.5,1).curveTo(63.1,1,62.8,0.7).curveTo(62.5,0.4,62.5,0).curveTo(62.5,-0.4,62.8,-0.7).curveTo(63.1,-1,63.5,-1).lineTo(69.5,-1).curveTo(69.9,-1,70.2,-0.7).curveTo(70.5,-0.4,70.5,0).curveTo(70.5,0.4,70.2,0.7).curveTo(69.9,1,69.5,1).closePath().moveTo(51.5,1).curveTo(51.1,1,50.8,0.7).curveTo(50.5,0.4,50.5,0).curveTo(50.5,-0.4,50.8,-0.7).curveTo(51.1,-1,51.5,-1).lineTo(57.5,-1).curveTo(57.9,-1,58.2,-0.7).curveTo(58.5,-0.4,58.5,0).curveTo(58.5,0.4,58.2,0.7).curveTo(57.9,1,57.5,1).closePath().moveTo(39.5,1).curveTo(39.1,1,38.8,0.7).curveTo(38.5,0.4,38.5,0).curveTo(38.5,-0.4,38.8,-0.7).curveTo(39.1,-1,39.5,-1).lineTo(45.5,-1).curveTo(45.9,-1,46.2,-0.7).curveTo(46.5,-0.4,46.5,0).curveTo(46.5,0.4,46.2,0.7).curveTo(45.9,1,45.5,1).closePath().moveTo(27.5,1).curveTo(27.1,1,26.8,0.7).curveTo(26.5,0.4,26.5,0).curveTo(26.5,-0.4,26.8,-0.7).curveTo(27.1,-1,27.5,-1).lineTo(33.5,-1).curveTo(33.9,-1,34.2,-0.7).curveTo(34.5,-0.4,34.5,0).curveTo(34.5,0.4,34.2,0.7).curveTo(33.9,1,33.5,1).closePath().moveTo(15.5,1).curveTo(15.1,1,14.8,0.7).curveTo(14.5,0.4,14.5,0).curveTo(14.5,-0.4,14.8,-0.7).curveTo(15.1,-1,15.5,-1).lineTo(21.5,-1).curveTo(21.9,-1,22.2,-0.7).curveTo(22.5,-0.4,22.5,0).curveTo(22.5,0.4,22.2,0.7).curveTo(21.9,1,21.5,1).closePath().moveTo(3.5,1).curveTo(3.1,1,2.8,0.7).curveTo(2.5,0.4,2.5,0).curveTo(2.5,-0.4,2.8,-0.7).curveTo(3.1,-1,3.5,-1).lineTo(9.5,-1).curveTo(9.9,-1,10.2,-0.7).curveTo(10.5,-0.4,10.5,0).curveTo(10.5,0.4,10.2,0.7).curveTo(9.9,1,9.5,1).closePath().moveTo(-8.5,1).curveTo(-8.9,1,-9.2,0.7).curveTo(-9.5,0.4,-9.5,0).curveTo(-9.5,-0.4,-9.2,-0.7).curveTo(-8.9,-1,-8.5,-1).lineTo(-2.5,-1).curveTo(-2.1,-1,-1.8,-0.7).curveTo(-1.5,-0.4,-1.5,0).curveTo(-1.5,0.4,-1.8,0.7).curveTo(-2.1,1,-2.5,1).closePath().moveTo(-20.5,1).curveTo(-20.9,1,-21.2,0.7).curveTo(-21.5,0.4,-21.5,0).curveTo(-21.5,-0.4,-21.2,-0.7).curveTo(-20.9,-1,-20.5,-1).lineTo(-14.5,-1).curveTo(-14.1,-1,-13.8,-0.7).curveTo(-13.5,-0.4,-13.5,0).curveTo(-13.5,0.4,-13.8,0.7).curveTo(-14.1,1,-14.5,1).closePath().moveTo(-32.5,1).curveTo(-32.9,1,-33.2,0.7).curveTo(-33.5,0.4,-33.5,0).curveTo(-33.5,-0.4,-33.2,-0.7).curveTo(-32.9,-1,-32.5,-1).lineTo(-26.5,-1).curveTo(-26.1,-1,-25.8,-0.7).curveTo(-25.5,-0.4,-25.5,0).curveTo(-25.5,0.4,-25.8,0.7).curveTo(-26.1,1,-26.5,1).closePath().moveTo(-44.5,1).curveTo(-44.9,1,-45.2,0.7).curveTo(-45.5,0.4,-45.5,0).curveTo(-45.5,-0.4,-45.2,-0.7).curveTo(-44.9,-1,-44.5,-1).lineTo(-38.5,-1).curveTo(-38.1,-1,-37.8,-0.7).curveTo(-37.5,-0.4,-37.5,0).curveTo(-37.5,0.4,-37.8,0.7).curveTo(-38.1,1,-38.5,1).closePath().moveTo(-56.5,1).curveTo(-56.9,1,-57.2,0.7).curveTo(-57.5,0.4,-57.5,0).curveTo(-57.5,-0.4,-57.2,-0.7).curveTo(-56.9,-1,-56.5,-1).lineTo(-50.5,-1).curveTo(-50.1,-1,-49.8,-0.7).curveTo(-49.5,-0.4,-49.5,0).curveTo(-49.5,0.4,-49.8,0.7).curveTo(-50.1,1,-50.5,1).closePath().moveTo(-68.5,1).curveTo(-68.9,1,-69.2,0.7).curveTo(-69.5,0.4,-69.5,0).curveTo(-69.5,-0.4,-69.2,-0.7).curveTo(-68.9,-1,-68.5,-1).lineTo(-62.5,-1).curveTo(-62.1,-1,-61.8,-0.7).curveTo(-61.5,-0.4,-61.5,0).curveTo(-61.5,0.4,-61.8,0.7).curveTo(-62.1,1,-62.5,1).closePath().moveTo(-80.5,1).curveTo(-80.9,1,-81.2,0.7).curveTo(-81.5,0.4,-81.5,0).curveTo(-81.5,-0.4,-81.2,-0.7).curveTo(-80.9,-1,-80.5,-1).lineTo(-74.5,-1).curveTo(-74.1,-1,-73.8,-0.7).curveTo(-73.5,-0.4,-73.5,0).curveTo(-73.5,0.4,-73.8,0.7).curveTo(-74.1,1,-74.5,1).closePath().moveTo(-92.5,1).curveTo(-92.9,1,-93.2,0.7).curveTo(-93.5,0.4,-93.5,0).curveTo(-93.5,-0.4,-93.2,-0.7).curveTo(-92.9,-1,-92.5,-1).lineTo(-86.5,-1).curveTo(-86.1,-1,-85.8,-0.7).curveTo(-85.5,-0.4,-85.5,0).curveTo(-85.5,0.4,-85.8,0.7).curveTo(-86.1,1,-86.5,1).closePath().moveTo(-104.5,1).curveTo(-104.9,1,-105.2,0.7).curveTo(-105.5,0.4,-105.5,0).curveTo(-105.5,-0.4,-105.2,-0.7).curveTo(-104.9,-1,-104.5,-1).lineTo(-98.5,-1).curveTo(-98.1,-1,-97.8,-0.7).curveTo(-97.5,-0.4,-97.5,0).curveTo(-97.5,0.4,-97.8,0.7).curveTo(-98.1,1,-98.5,1).closePath().moveTo(-116.5,1).curveTo(-116.9,1,-117.2,0.7).curveTo(-117.5,0.4,-117.5,0).curveTo(-117.5,-0.4,-117.2,-0.7).curveTo(-116.9,-1,-116.5,-1).lineTo(-110.5,-1).curveTo(-110.1,-1,-109.8,-0.7).curveTo(-109.5,-0.4,-109.5,0).curveTo(-109.5,0.4,-109.8,0.7).curveTo(-110.1,1,-110.5,1).closePath().moveTo(-128.5,1).curveTo(-128.9,1,-129.2,0.7).curveTo(-129.5,0.4,-129.5,0).curveTo(-129.5,-0.4,-129.2,-0.7).curveTo(-128.9,-1,-128.5,-1).lineTo(-122.5,-1).curveTo(-122.1,-1,-121.8,-0.7).curveTo(-121.5,-0.4,-121.5,0).curveTo(-121.5,0.4,-121.8,0.7).curveTo(-122.1,1,-122.5,1).closePath().moveTo(-140.5,1).curveTo(-140.9,1,-141.2,0.7).curveTo(-141.5,0.4,-141.5,0).curveTo(-141.5,-0.4,-141.2,-0.7).curveTo(-140.9,-1,-140.5,-1).lineTo(-134.5,-1).curveTo(-134.1,-1,-133.8,-0.7).curveTo(-133.5,-0.4,-133.5,0).curveTo(-133.5,0.4,-133.8,0.7).curveTo(-134.1,1,-134.5,1).closePath().moveTo(-152.5,1).curveTo(-152.9,1,-153.2,0.7).curveTo(-153.5,0.4,-153.5,0).curveTo(-153.5,-0.4,-153.2,-0.7).curveTo(-152.9,-1,-152.5,-1).lineTo(-146.5,-1).curveTo(-146.1,-1,-145.8,-0.7).curveTo(-145.5,-0.4,-145.5,0).curveTo(-145.5,0.4,-145.8,0.7).curveTo(-146.1,1,-146.5,1).closePath().moveTo(-164.5,1).curveTo(-164.9,1,-165.2,0.7).curveTo(-165.5,0.4,-165.5,0).curveTo(-165.5,-0.4,-165.2,-0.7).curveTo(-164.9,-1,-164.5,-1).lineTo(-158.5,-1).curveTo(-158.1,-1,-157.8,-0.7).curveTo(-157.5,-0.4,-157.5,0).curveTo(-157.5,0.4,-157.8,0.7).curveTo(-158.1,1,-158.5,1).closePath().moveTo(-176.5,1).curveTo(-176.9,1,-177.2,0.7).curveTo(-177.5,0.4,-177.5,0).curveTo(-177.5,-0.4,-177.2,-0.7).curveTo(-176.9,-1,-176.5,-1).lineTo(-170.5,-1).curveTo(-170.1,-1,-169.8,-0.7).curveTo(-169.5,-0.4,-169.5,0).curveTo(-169.5,0.4,-169.8,0.7).curveTo(-170.1,1,-170.5,1).closePath().moveTo(-188.5,1).curveTo(-188.9,1,-189.2,0.7).curveTo(-189.5,0.4,-189.5,0).curveTo(-189.5,-0.4,-189.2,-0.7).curveTo(-188.9,-1,-188.5,-1).lineTo(-182.5,-1).curveTo(-182.1,-1,-181.8,-0.7).curveTo(-181.5,-0.4,-181.5,0).curveTo(-181.5,0.4,-181.8,0.7).curveTo(-182.1,1,-182.5,1).closePath().moveTo(-200.5,1).curveTo(-200.9,1,-201.2,0.7).curveTo(-201.5,0.4,-201.5,0).curveTo(-201.5,-0.4,-201.2,-0.7).curveTo(-200.9,-1,-200.5,-1).lineTo(-194.5,-1).curveTo(-194.1,-1,-193.8,-0.7).curveTo(-193.5,-0.4,-193.5,0).curveTo(-193.5,0.4,-193.8,0.7).curveTo(-194.1,1,-194.5,1).closePath().moveTo(-212.5,1).curveTo(-212.9,1,-213.2,0.7).curveTo(-213.5,0.4,-213.5,0).curveTo(-213.5,-0.4,-213.2,-0.7).curveTo(-212.9,-1,-212.5,-1).lineTo(-206.5,-1).curveTo(-206.1,-1,-205.8,-0.7).curveTo(-205.5,-0.4,-205.5,0).curveTo(-205.5,0.4,-205.8,0.7).curveTo(-206.1,1,-206.5,1).closePath().moveTo(-224.5,1).curveTo(-224.9,1,-225.2,0.7).curveTo(-225.5,0.4,-225.5,0).curveTo(-225.5,-0.4,-225.2,-0.7).curveTo(-224.9,-1,-224.5,-1).lineTo(-218.5,-1).curveTo(-218.1,-1,-217.8,-0.7).curveTo(-217.5,-0.4,-217.5,0).curveTo(-217.5,0.4,-217.8,0.7).curveTo(-218.1,1,-218.5,1).closePath().moveTo(-236.5,1).curveTo(-236.9,1,-237.2,0.7).curveTo(-237.5,0.4,-237.5,0).curveTo(-237.5,-0.4,-237.2,-0.7).curveTo(-236.9,-1,-236.5,-1).lineTo(-230.5,-1).curveTo(-230.1,-1,-229.8,-0.7).curveTo(-229.5,-0.4,-229.5,0).curveTo(-229.5,0.4,-229.8,0.7).curveTo(-230.1,1,-230.5,1).closePath();
 	this.shape.setTransform(236.475,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -351,7 +351,7 @@ if (reversed == null) { reversed = false; }
 	this.txt.setTransform(0,19.5);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#8F9B9F").ss(0.1,1,1).p("AAAA8IAAh3");
+	this.shape.graphics.beginFill().beginStroke("#8F9B9F").setStrokeStyle(0.1,1,1).moveTo(0,6).lineTo(0,-6);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.txt}]}).wait(1));
 
@@ -373,7 +373,7 @@ if (reversed == null) { reversed = false; }
 
 	// hit
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#F2F2F2").s().p("A4/B4IAAjvMAx/AAAIAADvg");
+	this.shape.graphics.beginFill("#F2F2F2").beginStroke().moveTo(-160,12).lineTo(-160,-12).lineTo(160,-12).lineTo(160,12).closePath();
 	this.shape.setTransform(160,0);
 	this.shape._off = true;
 
@@ -406,19 +406,19 @@ if (reversed == null) { reversed = false; }
 
 	// circle
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AhUBVQgjgjAAgyQAAgxAjgjQAjgjAxAAQAyAAAjAjQAjAjAAAxQAAAygjAjQgjAjgyAAQgxAAgjgjg");
+	this.shape.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-8.5,8.5).curveTo(-12,5,-12,0).curveTo(-12,-5,-8.5,-8.5).curveTo(-5,-12,0,-12).curveTo(5,-12,8.5,-8.5).curveTo(12,-5,12,0).curveTo(12,5,8.5,8.5).curveTo(5,12,0,12).curveTo(-5,12,-8.5,8.5).closePath();
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("#4395DE").ss(1,1,1).p("AB4AAQAAAygjAjQgjAjgyAAQgxAAgjgjQgjgjAAgyQAAgxAjgjQAjgjAxAAQAyAAAjAjQAjAjAAAxg");
+	this.shape_1.graphics.beginFill().beginStroke("#4395DE").setStrokeStyle(1,1,1).moveTo(12,0).curveTo(12,5,8.5,8.5).curveTo(5,12,0,12).curveTo(-5,12,-8.4,8.5).curveTo(-12,5,-12,0).curveTo(-12,-5,-8.4,-8.5).curveTo(-5,-12,0,-12).curveTo(5,-12,8.5,-8.5).curveTo(12,-5,12,0).closePath();
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#4395DE").s().p("AhUBVQgjgjAAgyQAAgxAjgjQAjgjAxAAQAyAAAjAjQAjAjAAAxQAAAygjAjQgjAjgyAAQgxAAgjgjg");
+	this.shape_2.graphics.beginFill("#4395DE").beginStroke().moveTo(-8.5,8.5).curveTo(-12,5,-12,0).curveTo(-12,-5,-8.5,-8.5).curveTo(-5,-12,0,-12).curveTo(5,-12,8.5,-8.5).curveTo(12,-5,12,0).curveTo(12,5,8.5,8.5).curveTo(5,12,0,12).curveTo(-5,12,-8.5,8.5).closePath();
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).to({state:[{t:this.shape_2},{t:this.shape_1}]},1).wait(1));
 
 	// shadow
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("rgba(0,0,0,0.349)").s().p("AhUBVQgjgkAAgxQAAgxAjgjQAjgjAxAAQAyAAAjAjQAjAjAAAxQAAAxgjAkQgjAjgyAAQgxAAgjgjg");
+	this.shape_3.graphics.beginFill("rgba(0,0,0,0.349)").beginStroke().moveTo(-8.5,8.5).curveTo(-12,4.9,-12,-0).curveTo(-12,-5,-8.5,-8.5).curveTo(-5,-12,0,-12).curveTo(5,-12,8.5,-8.5).curveTo(12,-5,12,-0).curveTo(12,4.9,8.5,8.5).curveTo(5,12,0,12).curveTo(-5,12,-8.5,8.5).closePath();
 	this.shape_3.setTransform(0,1.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_3).wait(2));
@@ -442,7 +442,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#4395DE").ss(1,2,1).p("A4/AAMAx/AAA");
+	this.shape.graphics.beginFill().beginStroke("#4395DE").setStrokeStyle(1,2,1).moveTo(-160,0).lineTo(160,0);
 	this.shape.setTransform(160,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -465,11 +465,11 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#4A494A").ss(13.7,1,0,4).p("Ax0nLMAjpAAAIAAOXMgjpAAAg");
+	this.shape.graphics.beginFill().beginStroke("#4A494A").setStrokeStyle(13.7,1,0,4).moveTo(-114,-46).lineTo(114,-46).lineTo(114,46).lineTo(-114,46).closePath();
 	this.shape.setTransform(114.05,46);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#0066CC").s().p("Ax0HMIAAuXMAjoAAAIAAOXg");
+	this.shape_1.graphics.beginFill("#0066CC").beginStroke().moveTo(-114,46).lineTo(-114,-46).lineTo(114,-46).lineTo(114,46).closePath();
 	this.shape_1.setTransform(114.05,46);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
@@ -493,11 +493,11 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#9423FF").ss(1,1,1).p("AA/AAQAAAagTASQgSATgaAAQgZAAgTgTQgSgSAAgaQAAgZASgTQATgSAZAAQAaAAASASQATATAAAZg");
+	this.shape.graphics.beginFill().beginStroke("#9423FF").setStrokeStyle(1,1,1).moveTo(6.2,0).curveTo(6.2,2.6,4.4,4.4).curveTo(2.6,6.2,0,6.2).curveTo(-2.6,6.2,-4.5,4.4).curveTo(-6.2,2.6,-6.2,0).curveTo(-6.2,-2.6,-4.5,-4.5).curveTo(-2.6,-6.2,0,-6.2).curveTo(2.6,-6.2,4.4,-4.5).curveTo(6.2,-2.6,6.2,0).closePath();
 	this.shape.setTransform(6.25,6.25);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#0066CC").s().p("AgsAsQgRgSgBgaQABgZARgTQATgRAZgBQAaABASARQATATAAAZQAAAagTASQgSATgaAAQgZAAgTgTg");
+	this.shape_1.graphics.beginFill("#0066CC").beginStroke().moveTo(-4.5,4.4).curveTo(-6.2,2.6,-6.2,-0).curveTo(-6.2,-2.6,-4.5,-4.5).curveTo(-2.6,-6.2,-0,-6.2).curveTo(2.6,-6.2,4.4,-4.5).curveTo(6.3,-2.6,6.3,-0).curveTo(6.3,2.6,4.4,4.4).curveTo(2.6,6.3,-0,6.3).curveTo(-2.6,6.3,-4.5,4.4).closePath();
 	this.shape_1.setTransform(6.25,6.25);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
@@ -534,22 +534,22 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("Ah5B6QgygzAAhHQAAhGAygzQAzgyBGAAQBHAAAzAyQAyAzAABGQAABHgyAzQgzAyhHAAQhGAAgzgygAhOhOQghAgAAAuQAAAvAhAgQAgAhAuAAQAvAAAgghQAhggAAgvQAAgughggQggghgvAAIAAAAQguAAggAhg");
+	this.shape.graphics.beginFill("#FFFFFF").beginStroke().moveTo(-12.2,12.2).curveTo(-17.2,7.1,-17.2,0).curveTo(-17.2,-7.1,-12.2,-12.2).curveTo(-7.1,-17.2,0,-17.2).curveTo(7.1,-17.2,12.2,-12.2).curveTo(17.2,-7.1,17.2,0).curveTo(17.2,7.1,12.2,12.2).curveTo(7.1,17.2,0,17.2).curveTo(-7.1,17.2,-12.2,12.2).closePath().moveTo(-7.9,-7.9).curveTo(-11.2,-4.7,-11.2,0).curveTo(-11.2,4.7,-7.9,7.9).curveTo(-4.7,11.2,0,11.2).curveTo(4.7,11.2,7.9,7.9).curveTo(11.2,4.7,11.2,0).curveTo(11.2,-4.7,7.9,-7.9).curveTo(4.7,-11.2,0,-11.2).lineTo(-0,-11.2).curveTo(-4.7,-11.2,-7.9,-7.9).closePath();
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFBFB").s().p("ABEDbQgNgOAAgUQAAgTANgOQAOgOAUAAQATAAAOAOQAOAOAAATQAAAUgOAOQgOAOgTAAQgUAAgOgOgAgtDWQgJgJAAgMQAAgMAJgIQAIgJAMAAQANAAAIAJQAIAIAAAMQAAAMgIAJQgIAJgNgBQgMABgIgJgAiEDTQgGgFAAgIQAAgIAGgGQAFgFAIAAQAIAAAGAFQAFAGAAAIQAAAIgFAFQgGAGgIAAQgIAAgFgGgAioCIQgGgGAAgIQAAgIAGgFQAGgGAIAAQAIAAAFAGQAGAFAAAIQAAAIgGAGQgFAFgIAAQgIAAgGgFgAC/B3QgHgHAAgKQAAgKAHgIQAHgGAKgBQAKABAHAGQAIAIAAAKQAAAKgIAHQgHAHgKAAQgKAAgHgHgAjYBWQgSgSAAgaQAAgZASgRQASgSAZAAQAZAAASASQASARAAAZQAAAagSASQgSASgZAAQgZAAgSgSgACdAFQgOgLAAgUQAAgTAOgOQANgNATAAQATAAAOANQANAOAAATQAAAUgNALQgOAOgTAAQgTAAgNgOgAi3hFQgJgJAAgMQAAgMAJgKQAJgIAMAAQAMAAAJAIQAIAKAAAMQAAAMgIAJQgJAIgMAAQgMAAgJgIgACviFQgEgEAAgFQAAgGAEgEQAEgEAFAAQAFAAAEAEQAEAEAAAGQAAAFgEAEQgEADgFAAQgFAAgEgDgAhFicQgNgMAAgTQAAgTANgNQANgNATABQASgBANANQAMANAAATQAAATgMAMQgNANgSABQgTgBgNgNgABRiiQgJgJAAgOQAAgNAJgJQAKgJANAAQANAAAJAJQAJAJAAANQAAANgJAKQgJAJgNAAQgNAAgKgJg");
+	this.shape_1.graphics.beginFill("#FFFBFB").beginStroke().moveTo(6.8,21.9).curveTo(5.5,20.5,5.5,18.5).curveTo(5.5,16.6,6.8,15.2).curveTo(8.2,13.8,10.2,13.8).curveTo(12.1,13.8,13.5,15.2).curveTo(14.9,16.6,14.9,18.5).curveTo(14.9,20.5,13.5,21.9).curveTo(12.1,23.3,10.2,23.3).curveTo(8.2,23.3,6.8,21.9).closePath().moveTo(-4.6,21.4).curveTo(-5.5,20.5,-5.5,19.3).curveTo(-5.5,18.1,-4.6,17.3).curveTo(-3.8,16.4,-2.6,16.4).curveTo(-1.3,16.4,-0.5,17.3).curveTo(0.4,18.1,0.4,19.3).curveTo(0.4,20.5,-0.5,21.4).curveTo(-1.3,22.3,-2.6,22.2).curveTo(-3.8,22.3,-4.6,21.4).closePath().moveTo(-13.3,21.1).curveTo(-13.9,20.6,-13.9,19.8).curveTo(-13.9,19,-13.3,18.4).curveTo(-12.8,17.9,-12,17.9).curveTo(-11.2,17.9,-10.6,18.4).curveTo(-10.1,19,-10.1,19.8).curveTo(-10.1,20.6,-10.6,21.1).curveTo(-11.2,21.7,-12,21.7).curveTo(-12.8,21.7,-13.3,21.1).closePath().moveTo(-16.9,13.6).curveTo(-17.5,13,-17.5,12.2).curveTo(-17.5,11.4,-16.9,10.9).curveTo(-16.3,10.3,-15.5,10.3).curveTo(-14.7,10.3,-14.2,10.9).curveTo(-13.6,11.4,-13.6,12.2).curveTo(-13.6,13,-14.2,13.6).curveTo(-14.7,14.1,-15.5,14.1).curveTo(-16.3,14.1,-16.9,13.6).closePath().moveTo(19.1,11.9).curveTo(18.4,11.2,18.4,10.2).curveTo(18.4,9.2,19.1,8.4).curveTo(19.8,7.8,20.8,7.7).curveTo(21.8,7.8,22.5,8.4).curveTo(23.3,9.2,23.3,10.2).curveTo(23.3,11.2,22.5,11.9).curveTo(21.8,12.6,20.8,12.6).curveTo(19.8,12.6,19.1,11.9).closePath().moveTo(-21.7,8.6).curveTo(-23.5,6.8,-23.5,4.2).curveTo(-23.5,1.7,-21.7,-0.1).curveTo(-19.9,-1.9,-17.4,-1.9).curveTo(-14.9,-1.9,-13.1,-0.1).curveTo(-11.3,1.7,-11.3,4.2).curveTo(-11.3,6.8,-13.1,8.6).curveTo(-14.9,10.4,-17.4,10.4).curveTo(-19.9,10.4,-21.7,8.6).closePath().moveTo(15.7,0.5).curveTo(14.3,-0.7,14.3,-2.7).curveTo(14.3,-4.6,15.7,-6).curveTo(17,-7.3,18.9,-7.3).curveTo(20.8,-7.3,22.2,-6).curveTo(23.5,-4.6,23.5,-2.7).curveTo(23.5,-0.7,22.2,0.5).curveTo(20.8,1.9,18.9,1.9).curveTo(17,1.9,15.7,0.5).closePath().moveTo(-18.4,-7).curveTo(-19.3,-7.9,-19.3,-9.1).curveTo(-19.3,-10.3,-18.4,-11.3).curveTo(-17.5,-12.1,-16.3,-12.1).curveTo(-15.1,-12.1,-14.2,-11.3).curveTo(-13.4,-10.3,-13.4,-9.1).curveTo(-13.4,-7.9,-14.2,-7).curveTo(-15.1,-6.2,-16.3,-6.2).curveTo(-17.5,-6.2,-18.4,-7).closePath().moveTo(17.5,-13.4).curveTo(17.1,-13.8,17.1,-14.3).curveTo(17.1,-14.9,17.5,-15.3).curveTo(17.9,-15.7,18.4,-15.7).curveTo(18.9,-15.7,19.3,-15.3).curveTo(19.7,-14.9,19.7,-14.3).curveTo(19.7,-13.8,19.3,-13.4).curveTo(18.9,-13.1,18.4,-13.1).curveTo(17.9,-13.1,17.5,-13.4).closePath().moveTo(-7,-15.7).curveTo(-8.3,-16.9,-8.3,-18.8).curveTo(-8.3,-20.7,-7,-22).curveTo(-5.7,-23.3,-3.8,-23.2).curveTo(-2,-23.3,-0.7,-22).curveTo(0.6,-20.7,0.6,-18.8).curveTo(0.6,-16.9,-0.7,-15.7).curveTo(-2,-14.4,-3.8,-14.3).curveTo(-5.7,-14.4,-7,-15.7).closePath().moveTo(8.1,-16.3).curveTo(7.2,-17.2,7.2,-18.6).curveTo(7.2,-19.9,8.1,-20.8).curveTo(9.1,-21.7,10.4,-21.7).curveTo(11.7,-21.7,12.6,-20.8).curveTo(13.5,-19.9,13.5,-18.6).curveTo(13.5,-17.3,12.6,-16.3).curveTo(11.7,-15.4,10.4,-15.4).curveTo(9.1,-15.4,8.1,-16.3).closePath();
 	this.shape_1.setTransform(0.225,-1.6);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFBFB").s().p("AB9EFQgKgKAAgPQAAgOAKgKQAKgKANAAQAPAAAKAKQAKAKAAAPQAAAOgKAKQgKAKgPAAQgNAAgKgKgAggDwQgFgFAAgIQAAgHAFgFQAFgFAIAAQAHAAAFAFQAFAFAAAIQAAAHgFAFQgFAFgHAAQgIAAgFgFgAiEDxQgEgEAAgGQAAgFAEgFQAEgEAFAAQAHAAADAEQAFAFAAAFQAAAGgFAEQgDAEgHAAQgFAAgEgEgAD9B/QgEgEAAgGQAAgGAEgEQAEgEAFAAQAHAAADAEQAFAEAAAGQAAAGgFAEQgDAEgHAAQgFAAgEgEgAkPBsQgNgNAAgTQAAgSANgNQANgNASAAQAUAAANANQANANgBASQABATgNANQgNANgUAAQgSAAgNgNgADtgIQgIgIAAgMQAAgMAIgIQAIgIALAAQAMAAAJAIQAIAIAAAMQAAAMgIAIQgJAIgMAAQgLAAgIgIgAjKhcQgGgGAAgJQAAgIAGgGQAGgGAIAAQAJAAAHAGQAFAGAAAIQAAAJgFAGQgHAGgJAAQgIAAgGgGgAB/jWQgEgFAAgHQAAgIAEgFQAFgFAIAAQAIAAAFAFQAFAFAAAIQAAAHgFAFQgFAFgIAAQgIAAgFgFgAg8jeQgIgIAAgMQAAgLAIgJQAIgIAMAAQAMAAAIAIQAIAJAAALQAAAMgIAIQgIAIgMAAQgMAAgIgIg");
+	this.shape_2.graphics.beginFill("#FFFBFB").beginStroke().moveTo(12.5,26.1).curveTo(11.5,25.1,11.5,23.6).curveTo(11.5,22.2,12.5,21.2).curveTo(13.5,20.2,14.8,20.2).curveTo(16.3,20.2,17.3,21.2).curveTo(18.3,22.2,18.3,23.7).curveTo(18.3,25.1,17.3,26.1).curveTo(16.3,27.1,14.8,27.1).curveTo(13.5,27.1,12.5,26.1).closePath().moveTo(-3.3,24).curveTo(-3.8,23.5,-3.8,22.7).curveTo(-3.8,22,-3.3,21.5).curveTo(-2.8,21,-2,21).curveTo(-1.3,21,-0.8,21.5).curveTo(-0.3,22,-0.3,22.8).curveTo(-0.3,23.5,-0.8,24).curveTo(-1.3,24.5,-2,24.5).curveTo(-2.8,24.5,-3.3,24).closePath().moveTo(-13.3,24.1).curveTo(-13.7,23.7,-13.7,23.1).curveTo(-13.7,22.6,-13.3,22.1).curveTo(-12.9,21.7,-12.4,21.7).curveTo(-11.7,21.7,-11.4,22.1).curveTo(-10.9,22.6,-10.9,23.1).curveTo(-10.9,23.7,-11.4,24.1).curveTo(-11.7,24.5,-12.4,24.5).curveTo(-12.9,24.5,-13.3,24.1).closePath().moveTo(25.3,12.7).curveTo(24.9,12.3,24.9,11.7).curveTo(24.9,11.1,25.3,10.7).curveTo(25.7,10.3,26.2,10.3).curveTo(26.9,10.3,27.2,10.7).curveTo(27.7,11.1,27.7,11.7).curveTo(27.7,12.3,27.2,12.7).curveTo(26.9,13.1,26.2,13.1).curveTo(25.7,13.1,25.3,12.7).closePath().moveTo(-27.2,10.8).curveTo(-28.5,9.5,-28.5,7.6).curveTo(-28.5,5.8,-27.2,4.5).curveTo(-25.9,3.2,-24.1,3.2).curveTo(-22.1,3.2,-20.8,4.5).curveTo(-19.5,5.8,-19.6,7.6).curveTo(-19.5,9.5,-20.8,10.8).curveTo(-22.1,12.1,-24.1,12.1).curveTo(-25.9,12.1,-27.2,10.8).closePath().moveTo(23.7,-0.9).curveTo(22.9,-1.7,22.9,-2.9).curveTo(22.9,-4.1,23.7,-4.9).curveTo(24.5,-5.7,25.6,-5.7).curveTo(26.8,-5.7,27.7,-4.9).curveTo(28.5,-4.1,28.5,-2.9).curveTo(28.5,-1.7,27.7,-0.9).curveTo(26.8,-0.1,25.6,-0.1).curveTo(24.5,-0.1,23.7,-0.9).closePath().moveTo(-20.3,-9.3).curveTo(-20.9,-9.9,-20.9,-10.8).curveTo(-20.9,-11.6,-20.3,-12.2).curveTo(-19.7,-12.8,-18.9,-12.8).curveTo(-18,-12.8,-17.3,-12.2).curveTo(-16.8,-11.6,-16.8,-10.8).curveTo(-16.8,-9.9,-17.3,-9.3).curveTo(-18,-8.7,-18.9,-8.7).curveTo(-19.7,-8.7,-20.3,-9.3).closePath().moveTo(12.7,-21.5).curveTo(12.3,-22,12.3,-22.7).curveTo(12.3,-23.5,12.7,-24).curveTo(13.2,-24.5,14,-24.5).curveTo(14.8,-24.5,15.3,-24).curveTo(15.8,-23.5,15.8,-22.7).curveTo(15.8,-22,15.3,-21.5).curveTo(14.8,-21,14,-21).curveTo(13.2,-21,12.7,-21.5).closePath().moveTo(-6.1,-22.3).curveTo(-6.9,-23.1,-6.9,-24.3).curveTo(-6.9,-25.4,-6.1,-26.3).curveTo(-5.3,-27.1,-4.1,-27.1).curveTo(-2.9,-27.1,-2.1,-26.3).curveTo(-1.3,-25.4,-1.3,-24.3).curveTo(-1.3,-23.1,-2.1,-22.3).curveTo(-2.9,-21.5,-4.1,-21.5).curveTo(-5.3,-21.5,-6.1,-22.3).closePath();
 	this.shape_2.setTransform(-0.95,-2.375);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFFBFB").s().p("AClETQgGgGAAgKQAAgJAGgHQAIgGAJgBQAJABAHAGQAGAHAAAJQAAAKgGAGQgHAGgJAAQgJAAgIgGgAiDD3QAAAAAAAAQAAAAgBgBQAAAAAAgBQAAAAAAgBQAAAAAAAAQAAgBAAAAQABgBAAAAQAAgBAAAAQABAAAAgBQABAAAAAAQABAAAAAAQABAAAAAAQAAAAABAAQAAAAABAAQAAAAAAAAQABABAAAAQAAAAABABQAAAAAAABQAAAAAAABQAAAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQgBAAAAAAQAAABgBAAQAAAAAAABQgBAAAAAAQgBAAAAAAQAAAAgBAAQAAAAgBAAQAAgBgBAAQAAAAgBgBgAgYD1QgCgCAAgDQAAgDACgCQADgCADAAQADAAACACQACACAAAEQAAACgCACQgCADgDAAQgDAAgDgDgAkqB1QgIgIAAgLQAAgMAIgHQAIgJAMABQALgBAIAJQAIAHAAAMQAAALgIAIQgIAIgLAAQgMAAgIgIgAEWB0QAAAAgBgBQAAAAAAgBQAAAAAAgBQgBgBAAgBQAAAAABgBQAAAAAAgBQAAAAAAgBQABgBAAAAQAAAAABgBQABAAAAAAQABAAAAAAQABAAAAAAQABAAABAAQAAAAABAAQAAAAABAAQAAABABAAQAAAAAAABQABABAAAAQAAABAAAAQABABAAAAQAAABgBABQAAABAAAAQAAABgBAAQAAABAAAAQgBAAAAABQgBAAAAAAQgBAAAAAAQgBAAgBAAQAAAAgBAAQAAAAgBAAQAAAAgBAAQgBgBAAAAgAEWgjQgFgFAAgHQAAgHAFgFQAFgFAHAAQAHAAAFAFQAFAFAAAHQAAAHgFAFQgFAFgHAAQgHAAgFgFgAjTh0QgDgDAAgFQAAgDADgEQADgDAEAAQAFAAADADQACAEAAADQAAAFgCADQgDADgFAAQgEAAgDgDgACUjxQgDgDAAgEQAAgDADgDQADgEAEAAQAEAAADAEQADADAAADQAAAEgDADQgDADgEAAQgEAAgDgDgAg4j/QgEgFAAgGQAAgGAEgFQAFgDAGAAQAGAAAFADQAEAFAAAGQAAAHgEAEQgFAEgGAAQgGAAgFgEg");
+	this.shape_3.graphics.beginFill("#FFFBFB").beginStroke().moveTo(16.5,27.5).curveTo(15.9,26.9,15.9,25.9).curveTo(15.9,25,16.5,24.3).curveTo(17.3,23.7,18.2,23.6).curveTo(19.1,23.7,19.8,24.3).curveTo(20.4,25,20.4,25.9).curveTo(20.4,26.9,19.8,27.5).curveTo(19.1,28.1,18.2,28.1).curveTo(17.3,28.1,16.5,27.5).closePath().moveTo(-13.2,24.7).curveTo(-13.2,24.7,-13.2,24.7).curveTo(-13.2,24.7,-13.3,24.6).curveTo(-13.3,24.6,-13.3,24.5).curveTo(-13.3,24.5,-13.3,24.4).curveTo(-13.3,24.4,-13.3,24.4).curveTo(-13.3,24.3,-13.3,24.3).curveTo(-13.2,24.2,-13.2,24.2).curveTo(-13.2,24.1,-13.2,24.1).curveTo(-13.1,24.1,-13.1,24).curveTo(-13,24,-13,24).curveTo(-12.9,24,-12.9,24).curveTo(-12.8,24,-12.8,24).curveTo(-12.8,24,-12.7,24).curveTo(-12.7,24,-12.6,24).curveTo(-12.6,24,-12.6,24).curveTo(-12.5,24.1,-12.5,24.1).curveTo(-12.5,24.1,-12.4,24.2).curveTo(-12.4,24.2,-12.4,24.3).curveTo(-12.4,24.3,-12.4,24.4).curveTo(-12.4,24.4,-12.4,24.4).curveTo(-12.4,24.5,-12.4,24.5).curveTo(-12.4,24.6,-12.4,24.6).curveTo(-12.4,24.7,-12.4,24.7).curveTo(-12.5,24.7,-12.5,24.7).curveTo(-12.5,24.8,-12.6,24.8).curveTo(-12.6,24.8,-12.6,24.9).curveTo(-12.7,24.9,-12.7,24.9).curveTo(-12.8,24.9,-12.8,24.9).curveTo(-12.8,24.9,-12.9,24.9).curveTo(-12.9,24.9,-13,24.9).curveTo(-13,24.8,-13.1,24.8).curveTo(-13.1,24.8,-13.2,24.7).closePath().moveTo(-2.5,24.5).curveTo(-2.7,24.3,-2.7,24).curveTo(-2.7,23.7,-2.5,23.5).curveTo(-2.2,23.3,-1.9,23.3).curveTo(-1.6,23.3,-1.4,23.5).curveTo(-1.2,23.7,-1.2,24.1).curveTo(-1.2,24.3,-1.4,24.5).curveTo(-1.6,24.8,-1.9,24.8).curveTo(-2.2,24.8,-2.5,24.5).closePath().moveTo(-29.9,11.7).curveTo(-30.7,10.9,-30.7,9.8).curveTo(-30.7,8.6,-29.9,7.9).curveTo(-29.1,7,-27.9,7.1).curveTo(-26.8,7,-26,7.9).curveTo(-25.2,8.6,-25.2,9.8).curveTo(-25.2,10.9,-26,11.7).curveTo(-26.8,12.5,-27.9,12.5).curveTo(-29.1,12.5,-29.9,11.7).closePath().moveTo(27.8,11.6).curveTo(27.8,11.6,27.7,11.5).curveTo(27.7,11.5,27.7,11.4).curveTo(27.7,11.4,27.7,11.3).curveTo(27.6,11.2,27.6,11.1).curveTo(27.6,11.1,27.7,11).curveTo(27.7,11,27.7,10.9).curveTo(27.7,10.9,27.7,10.8).curveTo(27.8,10.7,27.8,10.7).curveTo(27.8,10.7,27.9,10.6).curveTo(28,10.6,28,10.6).curveTo(28.1,10.6,28.1,10.6).curveTo(28.2,10.6,28.2,10.6).curveTo(28.3,10.6,28.4,10.6).curveTo(28.4,10.6,28.5,10.6).curveTo(28.5,10.6,28.6,10.6).curveTo(28.6,10.7,28.7,10.7).curveTo(28.7,10.7,28.7,10.8).curveTo(28.8,10.9,28.8,10.9).curveTo(28.8,11,28.8,11).curveTo(28.9,11.1,28.9,11.1).curveTo(28.9,11.2,28.8,11.3).curveTo(28.8,11.4,28.8,11.4).curveTo(28.8,11.5,28.7,11.5).curveTo(28.7,11.6,28.7,11.6).curveTo(28.6,11.6,28.6,11.7).curveTo(28.5,11.7,28.5,11.7).curveTo(28.4,11.7,28.4,11.7).curveTo(28.3,11.7,28.2,11.7).curveTo(28.2,11.7,28.1,11.7).curveTo(28.1,11.7,28,11.7).curveTo(28,11.7,27.9,11.7).curveTo(27.8,11.6,27.8,11.6).closePath().moveTo(27.8,-3.6).curveTo(27.3,-4.1,27.3,-4.8).curveTo(27.3,-5.5,27.8,-6).curveTo(28.3,-6.5,29,-6.5).curveTo(29.7,-6.5,30.2,-6).curveTo(30.7,-5.5,30.7,-4.8).curveTo(30.7,-4.1,30.2,-3.6).curveTo(29.7,-3.1,29,-3.1).curveTo(28.3,-3.1,27.8,-3.6).closePath().moveTo(-21.2,-11.7).curveTo(-21.5,-12,-21.5,-12.5).curveTo(-21.5,-12.8,-21.2,-13.2).curveTo(-20.9,-13.5,-20.5,-13.5).curveTo(-20,-13.5,-19.7,-13.2).curveTo(-19.5,-12.8,-19.5,-12.5).curveTo(-19.5,-12,-19.7,-11.7).curveTo(-20,-11.4,-20.5,-11.4).curveTo(-20.9,-11.4,-21.2,-11.7).closePath().moveTo(14.8,-24.2).curveTo(14.5,-24.5,14.5,-24.9).curveTo(14.5,-25.2,14.8,-25.5).curveTo(15.1,-25.9,15.5,-25.9).curveTo(15.9,-25.9,16.2,-25.5).curveTo(16.5,-25.2,16.5,-24.9).curveTo(16.5,-24.5,16.2,-24.2).curveTo(15.9,-23.9,15.5,-23.9).curveTo(15.1,-23.9,14.8,-24.2).closePath().moveTo(-5.7,-25.6).curveTo(-6.1,-26.1,-6.1,-26.7).curveTo(-6.1,-27.3,-5.7,-27.8).curveTo(-5.2,-28.1,-4.6,-28.1).curveTo(-4,-28.1,-3.5,-27.8).curveTo(-3.1,-27.3,-3.1,-26.7).curveTo(-3.1,-26,-3.5,-25.6).curveTo(-4,-25.2,-4.6,-25.2).curveTo(-5.2,-25.2,-5.7,-25.6).closePath();
 	this.shape_3.setTransform(-1.15,-1.85);
 
 	this.shape_4 = new cjs.Shape();
-	this.shape_4.graphics.f("#FFFBFB").s().p("AC+EYQgCgDAAgEQAAgEACgCQADgDAEAAQAEAAADADQADACAAAEQAAAEgDADQgDADgEAAQgEAAgDgDgAk2CBQgEgEAAgGQAAgGAEgEQAEgEAFAAQAGAAAEAEQAEAEAAAGQAAAGgEAEQgEAEgGAAQgFAAgEgEgAEzg0QAAAAAAAAQgBgBAAAAQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAAAgBQAAAAABAAQAAgBAAAAQABgBAAAAQAAAAABAAQAAgBABAAQAAAAABAAQAAAAABAAQAAAAABABQAAAAAAAAQABAAAAABQAAAAAAABQABAAAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAABAAAAQAAAAgBABQAAAAAAAAQAAABgBAAQAAAAAAAAQgBABAAAAQgBAAAAAAQgBAAAAAAQgBAAAAgBQgBAAAAAAQAAAAgBgBgAgykQQAAgBAAAAQgBAAAAgBQAAAAAAgBQAAgBAAAAIABgEIAEgCQABAAAAAAQABAAABABQAAAAAAAAQABAAAAABQABAAAAABQABAAAAABQAAAAAAABQAAABAAAAQAAABAAAAQAAABAAAAQAAABgBAAQAAAAgBABQAAAAgBABQAAAAAAAAQgBAAgBABQAAAAgBAAQAAAAgBAAQAAgBgBAAQAAAAgBAAQAAgBgBAAg");
+	this.shape_4.graphics.beginFill("#FFFBFB").beginStroke().moveTo(19,28).curveTo(18.8,27.7,18.8,27.3).curveTo(18.8,26.9,19,26.7).curveTo(19.3,26.4,19.7,26.4).curveTo(20.1,26.4,20.4,26.7).curveTo(20.7,26.9,20.7,27.3).curveTo(20.7,27.7,20.4,28).curveTo(20.1,28.3,19.7,28.3).curveTo(19.3,28.3,19,28).closePath().moveTo(-31.1,12.9).curveTo(-31.5,12.5,-31.5,11.9).curveTo(-31.5,11.3,-31.1,10.9).curveTo(-30.7,10.5,-30.2,10.5).curveTo(-29.6,10.5,-29.2,10.9).curveTo(-28.8,11.3,-28.8,11.9).curveTo(-28.8,12.5,-29.2,12.9).curveTo(-29.6,13.3,-30.2,13.3).curveTo(-30.7,13.3,-31.1,12.9).closePath().moveTo(30.7,-5.3).curveTo(30.7,-5.3,30.7,-5.3).curveTo(30.6,-5.4,30.6,-5.4).curveTo(30.6,-5.4,30.6,-5.5).curveTo(30.6,-5.5,30.6,-5.6).curveTo(30.6,-5.6,30.6,-5.7).curveTo(30.6,-5.7,30.6,-5.8).curveTo(30.6,-5.8,30.7,-5.8).curveTo(30.7,-5.9,30.7,-5.9).curveTo(30.8,-6,30.8,-6).curveTo(30.8,-6,30.9,-6).curveTo(30.9,-6.1,31,-6.1).curveTo(31,-6.1,31.1,-6.1).curveTo(31.1,-6.1,31.2,-6.1).curveTo(31.2,-6.1,31.3,-6).curveTo(31.3,-6,31.3,-6).curveTo(31.4,-6,31.4,-5.9).curveTo(31.4,-5.9,31.4,-5.8).curveTo(31.5,-5.8,31.5,-5.8).curveTo(31.5,-5.7,31.5,-5.7).curveTo(31.5,-5.6,31.5,-5.6).curveTo(31.5,-5.5,31.5,-5.5).curveTo(31.5,-5.4,31.5,-5.4).curveTo(31.5,-5.4,31.4,-5.3).curveTo(31.4,-5.3,31.4,-5.3).curveTo(31.4,-5.2,31.3,-5.2).curveTo(31.3,-5.2,31.3,-5.2).curveTo(31.2,-5.1,31.2,-5.1).curveTo(31.1,-5.1,31.1,-5.1).curveTo(31,-5.1,31,-5.1).curveTo(30.9,-5.1,30.9,-5.2).curveTo(30.8,-5.2,30.8,-5.2).curveTo(30.8,-5.2,30.7,-5.3).closePath().moveTo(-5.1,-27.3).curveTo(-5.1,-27.4,-5.1,-27.4).curveTo(-5.2,-27.4,-5.2,-27.5).curveTo(-5.2,-27.5,-5.2,-27.6).curveTo(-5.2,-27.7,-5.2,-27.7).lineTo(-5.1,-28.1).lineTo(-4.7,-28.3).curveTo(-4.6,-28.3,-4.6,-28.3).curveTo(-4.5,-28.3,-4.4,-28.2).curveTo(-4.4,-28.2,-4.4,-28.2).curveTo(-4.3,-28.2,-4.3,-28.1).curveTo(-4.2,-28.1,-4.2,-28).curveTo(-4.1,-28,-4.1,-27.9).curveTo(-4.1,-27.9,-4.1,-27.8).curveTo(-4.1,-27.7,-4.1,-27.7).curveTo(-4.1,-27.6,-4.1,-27.6).curveTo(-4.1,-27.5,-4.1,-27.5).curveTo(-4.1,-27.4,-4.2,-27.4).curveTo(-4.2,-27.4,-4.3,-27.3).curveTo(-4.3,-27.3,-4.4,-27.2).curveTo(-4.4,-27.2,-4.4,-27.2).curveTo(-4.5,-27.2,-4.6,-27.1).curveTo(-4.6,-27.1,-4.7,-27.1).curveTo(-4.7,-27.1,-4.8,-27.1).curveTo(-4.8,-27.2,-4.9,-27.2).curveTo(-4.9,-27.2,-5,-27.2).curveTo(-5,-27.3,-5.1,-27.3).closePath();
 	this.shape_4.setTransform(-1.425,-2.025);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).to({state:[{t:this.shape_1}]},1).to({state:[{t:this.shape_2}]},1).to({state:[{t:this.shape_3}]},1).to({state:[{t:this.shape_4}]},1).to({state:[]},1).wait(1));
@@ -573,7 +573,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#C4D4FC").s().p("AhhBhQgogoAAg5QAAg4AogoQApgpA4AAQA5AAApApQAoAoAAA4QAAA5goAoQgpApg5AAQg4AAgpgpg");
+	this.shape.graphics.beginFill("#C4D4FC").beginStroke().moveTo(-9.8,9.7).curveTo(-13.8,5.7,-13.8,0).curveTo(-13.8,-5.7,-9.8,-9.7).curveTo(-5.7,-13.8,-0,-13.8).curveTo(5.7,-13.8,9.8,-9.7).curveTo(13.8,-5.7,13.8,0).curveTo(13.8,5.7,9.8,9.7).curveTo(5.7,13.8,-0,13.8).curveTo(-5.7,13.8,-9.8,9.7).closePath();
 	this.shape.setTransform(0.0165,0.0175,0.8293,0.8293);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -624,7 +624,7 @@ if (reversed == null) { reversed = false; }
 
 	// base
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#8F9B9F").ss(0.1,2,1).p("A4/AAMAx/AAA");
+	this.shape.graphics.beginFill().beginStroke("#8F9B9F").setStrokeStyle(0.1,2,1).moveTo(-160,0).lineTo(160,0);
 	this.shape.setTransform(160,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -910,100 +910,100 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.BoilingBubbles("synched",16);
 	this.instance.setTransform(32,92.55,0.1069,0.1069,0,0,0,1,0.5);
 
-	this.instance_1 = new lib.CachedBmp_3783();
+	this.instance_1 = new lib.CachedBmp_4803();
 	this.instance_1.setTransform(10.55,32.85,0.5,0.5);
 
 	this.instance_2 = new lib.Bubbles("synched",16);
 	this.instance_2.setTransform(31.75,17.65,0.1069,0.1069,0,0,0,1,0.5);
 
-	this.instance_3 = new lib.CachedBmp_3840();
+	this.instance_3 = new lib.CachedBmp_4860();
 	this.instance_3.setTransform(0,14.45,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_3785();
+	this.instance_4 = new lib.CachedBmp_4805();
 	this.instance_4.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_5 = new lib.CachedBmp_3787();
+	this.instance_5 = new lib.CachedBmp_4807();
 	this.instance_5.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_6 = new lib.CachedBmp_3789();
+	this.instance_6 = new lib.CachedBmp_4809();
 	this.instance_6.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_7 = new lib.CachedBmp_3791();
+	this.instance_7 = new lib.CachedBmp_4811();
 	this.instance_7.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_8 = new lib.CachedBmp_3793();
+	this.instance_8 = new lib.CachedBmp_4813();
 	this.instance_8.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_9 = new lib.CachedBmp_3795();
+	this.instance_9 = new lib.CachedBmp_4815();
 	this.instance_9.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_10 = new lib.CachedBmp_3797();
+	this.instance_10 = new lib.CachedBmp_4817();
 	this.instance_10.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_11 = new lib.CachedBmp_3799();
+	this.instance_11 = new lib.CachedBmp_4819();
 	this.instance_11.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_12 = new lib.CachedBmp_3801();
+	this.instance_12 = new lib.CachedBmp_4821();
 	this.instance_12.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_13 = new lib.CachedBmp_3803();
+	this.instance_13 = new lib.CachedBmp_4823();
 	this.instance_13.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_14 = new lib.CachedBmp_3805();
+	this.instance_14 = new lib.CachedBmp_4825();
 	this.instance_14.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_15 = new lib.CachedBmp_3807();
+	this.instance_15 = new lib.CachedBmp_4827();
 	this.instance_15.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_16 = new lib.CachedBmp_3809();
+	this.instance_16 = new lib.CachedBmp_4829();
 	this.instance_16.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_17 = new lib.CachedBmp_3811();
+	this.instance_17 = new lib.CachedBmp_4831();
 	this.instance_17.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_18 = new lib.CachedBmp_3813();
+	this.instance_18 = new lib.CachedBmp_4833();
 	this.instance_18.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_19 = new lib.CachedBmp_3815();
+	this.instance_19 = new lib.CachedBmp_4835();
 	this.instance_19.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_20 = new lib.CachedBmp_3817();
+	this.instance_20 = new lib.CachedBmp_4837();
 	this.instance_20.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_21 = new lib.CachedBmp_3819();
+	this.instance_21 = new lib.CachedBmp_4839();
 	this.instance_21.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_22 = new lib.CachedBmp_3821();
+	this.instance_22 = new lib.CachedBmp_4841();
 	this.instance_22.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_23 = new lib.CachedBmp_3823();
+	this.instance_23 = new lib.CachedBmp_4843();
 	this.instance_23.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_24 = new lib.CachedBmp_3825();
+	this.instance_24 = new lib.CachedBmp_4845();
 	this.instance_24.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_25 = new lib.CachedBmp_3827();
+	this.instance_25 = new lib.CachedBmp_4847();
 	this.instance_25.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_26 = new lib.CachedBmp_3829();
+	this.instance_26 = new lib.CachedBmp_4849();
 	this.instance_26.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_27 = new lib.CachedBmp_3831();
+	this.instance_27 = new lib.CachedBmp_4851();
 	this.instance_27.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_28 = new lib.CachedBmp_3833();
+	this.instance_28 = new lib.CachedBmp_4853();
 	this.instance_28.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_29 = new lib.CachedBmp_3835();
+	this.instance_29 = new lib.CachedBmp_4855();
 	this.instance_29.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_30 = new lib.CachedBmp_3837();
+	this.instance_30 = new lib.CachedBmp_4857();
 	this.instance_30.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_31 = new lib.CachedBmp_3839();
+	this.instance_31 = new lib.CachedBmp_4859();
 	this.instance_31.setTransform(10.55,32.85,0.5,0.5);
 
-	this.instance_32 = new lib.CachedBmp_3841();
+	this.instance_32 = new lib.CachedBmp_4861();
 	this.instance_32.setTransform(10.55,32.85,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:16}},{t:this.instance_1},{t:this.instance,p:{startPosition:16}}]}).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:16}},{t:this.instance_4},{t:this.instance,p:{startPosition:16}}]},13).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:20}},{t:this.instance_5},{t:this.instance,p:{startPosition:20}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:29}},{t:this.instance_6},{t:this.instance,p:{startPosition:29}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:25}},{t:this.instance_7},{t:this.instance,p:{startPosition:25}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:4}},{t:this.instance_8},{t:this.instance,p:{startPosition:34}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:0}},{t:this.instance_9},{t:this.instance,p:{startPosition:30}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:9}},{t:this.instance_10},{t:this.instance,p:{startPosition:39}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:5}},{t:this.instance_11},{t:this.instance,p:{startPosition:35}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:14}},{t:this.instance_12},{t:this.instance,p:{startPosition:44}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:10}},{t:this.instance_13},{t:this.instance,p:{startPosition:40}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:19}},{t:this.instance_14},{t:this.instance,p:{startPosition:49}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:15}},{t:this.instance_15},{t:this.instance,p:{startPosition:45}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:24}},{t:this.instance_16},{t:this.instance,p:{startPosition:54}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:20}},{t:this.instance_17},{t:this.instance,p:{startPosition:50}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:29}},{t:this.instance_18},{t:this.instance,p:{startPosition:59}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:25}},{t:this.instance_19},{t:this.instance,p:{startPosition:55}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:4}},{t:this.instance_20},{t:this.instance,p:{startPosition:4}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:0}},{t:this.instance_21},{t:this.instance,p:{startPosition:0}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:9}},{t:this.instance_22},{t:this.instance,p:{startPosition:9}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:5}},{t:this.instance_23},{t:this.instance,p:{startPosition:5}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:14}},{t:this.instance_24},{t:this.instance,p:{startPosition:14}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:10}},{t:this.instance_25},{t:this.instance,p:{startPosition:10}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:19}},{t:this.instance_26},{t:this.instance,p:{startPosition:19}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:15}},{t:this.instance_27},{t:this.instance,p:{startPosition:15}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:24}},{t:this.instance_28},{t:this.instance,p:{startPosition:24}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:20}},{t:this.instance_29},{t:this.instance,p:{startPosition:20}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:29}},{t:this.instance_30},{t:this.instance,p:{startPosition:29}}]},9).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:26}},{t:this.instance_31},{t:this.instance,p:{startPosition:26}}]},1).to({state:[{t:this.instance_3},{t:this.instance_2,p:{startPosition:6}},{t:this.instance_32},{t:this.instance,p:{startPosition:36}}]},10).wait(1));
@@ -1175,12 +1175,18 @@ if (reversed == null) { reversed = false; }
 		var graph_resolution = 500.0;
 		
 		function storeCoordinate(xVal, yVal, array) {
-		    array.push({x: xVal, y: yVal});
+			array.push({
+				x: xVal,
+				y: yVal
+			});
 		}
 		
 		
 		function storeDict(xVal, yVal, dictionary) {
-			dictionary.push({key:   xVal, value: yVal});
+			dictionary.push({
+				key: xVal,
+				value: yVal
+			});
 		}
 		
 		
@@ -1203,41 +1209,70 @@ if (reversed == null) { reversed = false; }
 			return pka + Math.log10(log_product);
 		}
 		
+		
+		function removeCurve() {
+			/*for (let i = 0; i < graph_resolution; i++) {
+				_this.removeChildAt(coords[i]);
+			}*/
+		
+		
+			for (var i = _this.numChildren - 1; i >= 0; i--) {
+				var child = _this.getChildAt(i)
+				if (child.name == "curve") {
+					_this.removeChild(child);
+				}
+			}
+		
+			/*console.log("what is this?", d_curve);
+			_this.removeChild(d_curve);*/
+		
+		}
+		
+		
 		function drawCurve() {
-			
+		
+			if (plot_flag) {
+				removeCurve();
+			}
 			//base = document.getElementById("oh").value;
 			//acid_moles = document.getElementById("h").value;
 			//pka = document.getElementById("pka").value;
-			
+		
 			//hard coded values for test plot
 			pka = _this.slider.currentValue;
 			var base = 0.0;
 			var acid_moles = 0.1;
 		
-		
 			for (let i = 0; i < graph_resolution; i++) {
 		
 				base += constant_titration; //column b
 				acid_moles = 0.1 - previous_titration; //column a
-					
+		
 				var ph = getpH(pka, base, acid_moles);
-				
-					/*if (isNaN(ph))
+		
+				/*if (isNaN(ph))
 					return;*/ //actually useful because it allows a steady plot and then stops on NaNs
-					
+		
 				//draw the curve
-				var titration_curve = new createjs.Shape();
-					
+				var titration_curve = new createjs.Shape().set({
+					name: "curve"
+				});
+		
 				titration_curve.graphics.beginFill("blue").drawCircle(0, 0, 3);
 				_this.addChild(titration_curve);
-				
-				titration_curve.alpha = 0.1;	
+		
+		
+				titration_curve.alpha = 0.1;
 				titration_curve.x = base * 8000;
 				titration_curve.y = 800 - (getScaledValue(ph, 1, 14, 0, 800)); //assuming 800 x 800 canvas for graph
-				
-				storeCoordinate(titration_curve.x, titration_curve.y, coords);		
-				storeDict(String(titration_curve.x), String(titration_curve.y), dict);		
-				storeMap(Number(titration_curve.x).toFixed(), Number(titration_curve.y).toFixed());		
+		
+				d_curve = "curve";
+		
+				plot_flag = 1; //set flag to remove previous plot if you run again
+		
+				storeCoordinate(titration_curve.x, titration_curve.y, coords);
+				storeDict(String(titration_curve.x), String(titration_curve.y), dict);
+				storeMap(Number(titration_curve.x).toFixed(), Number(titration_curve.y).toFixed());
 				//console.info(coords);
 		
 				previous_titration = base;
@@ -1355,7 +1390,7 @@ if (reversed == null) { reversed = false; }
 	this.x_marker.alpha = 0.4297;
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#4A494A").s().p("AAFAeIgGgEIgBgBIgBgCQgJgLAAgMQAAgMAJgJIABgCIABgBIAGgFIAIgEIAABDQgFgBgDgDg");
+	this.shape.graphics.beginFill("#4A494A").beginStroke().moveTo(0.5,3).lineTo(-0.2,2.6).lineTo(-0.3,2.5).lineTo(-0.4,2.3).curveTo(-1.3,1.2,-1.3,0).curveTo(-1.3,-1.3,-0.4,-2.2).lineTo(-0.3,-2.4).lineTo(-0.2,-2.5).lineTo(0.5,-3).lineTo(1.3,-3.4).lineTo(1.3,3.4).curveTo(0.8,3.3,0.5,3).closePath();
 	this.shape.setTransform(1501.1,971.15);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.x_marker},{t:this.y_marker},{t:this.ph},{t:this.oh},{t:this.pka},{t:this.beaker},{t:this.slider},{t:this.plot},{t:this.text}]}).wait(1));
@@ -1366,7 +1401,7 @@ if (reversed == null) { reversed = false; }
 	this.nodule.setTransform(816.25,1566.9,2.5598,2.5598,0,0,0,6,6.2);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("#4A494A").ss(13.7,1,0,4).p("EhNQhNkIgCbCMgADAs3MgADA1TIgCd9MCa2AAA");
+	this.shape_1.graphics.beginFill().beginStroke("#4A494A").setStrokeStyle(13.7,1,0,4).moveTo(-494.5,-496.5).lineTo(-494.7,-323.5).lineTo(-495,-36.4).lineTo(-495.3,304.8).lineTo(-495.5,496.5).lineTo(495.6,496.5);
 	this.shape_1.setTransform(1286.6964,1097.325);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.nodule}]}).wait(1));
@@ -1384,10 +1419,10 @@ lib.properties = {
 	color: "#66CCFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/plus_slider_atlas_1.png?1651458153400", id:"plus_slider_atlas_1"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1651458153433", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1651458153433", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1651458153433", id:"an.TextInput"}
+		{src:"images/plus_slider_atlas_1.png?1651497527076", id:"plus_slider_atlas_1"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1651497527110", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1651497527110", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1651497527110", id:"an.TextInput"}
 	],
 	preloads: []
 };
