@@ -14,16 +14,17 @@
 <title>plus_slider</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="plus_slider.js?1651505298860"></script>
+<script src="plus_slider.js?1651610562912"></script>
 <script>
 // Global Scripts
-	var pka;
+	//this.popup.visible = false;
+var pka;
 var coords = []; //store plot coords for node snap
 var dict = [];
 var titration_coords = []; //const means the array cannot be reassigned / common practice in JS
 const map1 = new Map();
 var plot_flag = 0;
-var d_curve; 
+var d_curve;
 function getScaledValue(value, sourceRangeMin, sourceRangeMax, targetRangeMin, targetRangeMax) {
     var targetRange = targetRangeMax - targetRangeMin;
     var sourceRange = sourceRangeMax - sourceRangeMin;
@@ -75,9 +76,9 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(102, 204, 255, 1.00); width:1978px; height:1975px">
-		<canvas id="canvas" width="1978" height="1975" style="position: absolute; display: block; background-color:rgba(102, 204, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1978px; height:1975px; position: absolute; left: 0px; top: 0px; display: block;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:3000px; height:2000px">
+		<canvas id="canvas" width="3000" height="2000" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:3000px; height:2000px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>
