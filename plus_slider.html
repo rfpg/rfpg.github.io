@@ -64,17 +64,18 @@ function isFontAvailable(font, obj) {
 <script>
 	var gFontsFamilies = ["Lato"];
 </script>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300&subset=latin">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:700&subset=latin">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:regular&subset=latin">
-<script src="plus_slider.js?1652299434977"></script>
+<script src="plus_slider.js?1652390180309"></script>
 <script>
 // Global Scripts
 	var pka;
+var slider_num = 0;
 var coords = []; //store plot coords for node snap
 var dict = [];
 var titration_coords = []; //const means the array cannot be reassigned / common practice in JS
 const map1 = new Map();
-const molecules = new Map();
 var acids = [];
 var plot_flag = 0;
 var d_curve;
@@ -126,6 +127,7 @@ function handleComplete(evt,comp) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
 	exportRoot = new lib.plus_slider();
+	exportRoot.addEventListener("tick", AdobeAn.handleFilterCache);
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
