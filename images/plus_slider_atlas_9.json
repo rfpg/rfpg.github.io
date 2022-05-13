@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":6,"h":45},
 	"sourceSize": {"w":6,"h":45}
 },
-"CachedBmp_374":
+"CachedBmp_126":
 {
 	"frame": {"x":1462,"y":1408,"w":188,"h":130},
 	"rotated": false,
@@ -16,7 +16,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":130},
 	"sourceSize": {"w":188,"h":130}
 },
-"CachedBmp_376":
+"CachedBmp_128":
 {
 	"frame": {"x":596,"y":1214,"w":594,"h":605},
 	"rotated": false,
@@ -24,7 +24,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":605},
 	"sourceSize": {"w":594,"h":605}
 },
-"CachedBmp_378":
+"CachedBmp_130":
 {
 	"frame": {"x":0,"y":1214,"w":594,"h":605},
 	"rotated": false,
@@ -32,7 +32,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":605},
 	"sourceSize": {"w":594,"h":605}
 },
-"CachedBmp_380":
+"CachedBmp_132":
 {
 	"frame": {"x":1192,"y":607,"w":594,"h":605},
 	"rotated": false,
@@ -40,7 +40,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":605},
 	"sourceSize": {"w":594,"h":605}
 },
-"CachedBmp_382":
+"CachedBmp_134":
 {
 	"frame": {"x":596,"y":607,"w":594,"h":605},
 	"rotated": false,
@@ -48,7 +48,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":605},
 	"sourceSize": {"w":594,"h":605}
 },
-"CachedBmp_384":
+"CachedBmp_136":
 {
 	"frame": {"x":0,"y":607,"w":594,"h":605},
 	"rotated": false,
@@ -56,7 +56,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":605},
 	"sourceSize": {"w":594,"h":605}
 },
-"CachedBmp_386":
+"CachedBmp_138":
 {
 	"frame": {"x":1192,"y":0,"w":594,"h":605},
 	"rotated": false,
@@ -64,7 +64,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":605},
 	"sourceSize": {"w":594,"h":605}
 },
-"CachedBmp_388":
+"CachedBmp_140":
 {
 	"frame": {"x":596,"y":0,"w":594,"h":605},
 	"rotated": false,
@@ -72,7 +72,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":605},
 	"sourceSize": {"w":594,"h":605}
 },
-"CachedBmp_390":
+"CachedBmp_142":
 {
 	"frame": {"x":0,"y":0,"w":594,"h":605},
 	"rotated": false,
@@ -80,7 +80,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":594,"h":605},
 	"sourceSize": {"w":594,"h":605}
 },
-"CachedBmp_493":
+"CachedBmp_245":
 {
 	"frame": {"x":1192,"y":1214,"w":464,"h":192},
 	"rotated": false,
@@ -88,7 +88,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":192},
 	"sourceSize": {"w":464,"h":192}
 },
-"CachedBmp_494":
+"CachedBmp_246":
 {
 	"frame": {"x":1192,"y":1408,"w":268,"h":137},
 	"rotated": false,
