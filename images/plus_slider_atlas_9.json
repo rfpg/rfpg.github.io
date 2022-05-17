@@ -10,11 +10,11 @@
 },
 "CachedBmp_126":
 {
-	"frame": {"x":1462,"y":1408,"w":188,"h":130},
+	"frame": {"x":1462,"y":1408,"w":148,"h":130},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":130},
-	"sourceSize": {"w":188,"h":130}
+	"spriteSourceSize": {"x":0,"y":0,"w":148,"h":130},
+	"sourceSize": {"w":148,"h":130}
 },
 "CachedBmp_128":
 {
