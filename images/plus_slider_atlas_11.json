@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":6,"h":45},
 	"sourceSize": {"w":6,"h":45}
 },
-"CachedBmp_2159":
+"CachedBmp_5969":
 {
 	"frame": {"x":540,"y":804,"w":148,"h":130},
 	"rotated": false,
@@ -16,7 +16,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":148,"h":130},
 	"sourceSize": {"w":148,"h":130}
 },
-"CachedBmp_2160":
+"CachedBmp_5970":
 {
 	"frame": {"x":1206,"y":402,"w":606,"h":226},
 	"rotated": false,
@@ -24,7 +24,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":606,"h":226},
 	"sourceSize": {"w":606,"h":226}
 },
-"CachedBmp_2280":
+"CachedBmp_6090":
 {
 	"frame": {"x":270,"y":804,"w":268,"h":137},
 	"rotated": false,
@@ -32,7 +32,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":268,"h":137},
 	"sourceSize": {"w":268,"h":137}
 },
-"CachedBmp_2281":
+"CachedBmp_6091":
 {
 	"frame": {"x":1206,"y":630,"w":464,"h":192},
 	"rotated": false,
@@ -40,7 +40,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":464,"h":192},
 	"sourceSize": {"w":464,"h":192}
 },
-"CachedBmp_2282":
+"CachedBmp_6092":
 {
 	"frame": {"x":0,"y":804,"w":268,"h":137},
 	"rotated": false,
@@ -64,6 +64,14 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":200},
 	"sourceSize": {"w":200,"h":200}
 },
+"butanoic_a":
+{
+	"frame": {"x":0,"y":0,"w":400,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
+	"sourceSize": {"w":400,"h":400}
+},
 "butanoic_ha":
 {
 	"frame": {"x":402,"y":0,"w":400,"h":400},
@@ -72,15 +80,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
 	"sourceSize": {"w":400,"h":400}
 },
-"butonoic_a":
-{
-	"frame": {"x":0,"y":0,"w":400,"h":400},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
-	"sourceSize": {"w":400,"h":400}
-},
-"carbonate_a":
+"carbonic_a":
 {
 	"frame": {"x":804,"y":0,"w":400,"h":400},
 	"rotated": false,
@@ -88,7 +88,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
 	"sourceSize": {"w":400,"h":400}
 },
-"carbonate_ha":
+"carbonic_ha":
 {
 	"frame": {"x":1206,"y":0,"w":400,"h":400},
 	"rotated": false,
@@ -112,7 +112,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
 	"sourceSize": {"w":400,"h":400}
 },
-"lactate_a":
+"lactic_a":
 {
 	"frame": {"x":402,"y":402,"w":400,"h":400},
 	"rotated": false,
