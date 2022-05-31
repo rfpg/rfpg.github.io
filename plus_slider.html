@@ -70,7 +70,7 @@ function isFontAvailable(font, obj) {
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:700&subset=latin">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular&subset=latin">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:regular&subset=latin">
-<script src="plus_slider.js?1653786041350"></script>
+<script src="plus_slider.js?1653963620701"></script>
 <script>
 // Global Scripts
 	var pka;
@@ -84,12 +84,19 @@ var titration_coords = []; //const means the array cannot be reassigned / common
 const map1 = new Map();
 var acids = [];
 var plot_flag = 0;
+var button_flag = false;
 var d_curve;
 var last_ph = 0;
 function getScaledValue(value, sourceRangeMin, sourceRangeMax, targetRangeMin, targetRangeMax) {
     var targetRange = targetRangeMax - targetRangeMin;
     var sourceRange = sourceRangeMax - sourceRangeMin;
     return (value - sourceRangeMin) * targetRange / sourceRange + targetRangeMin;
+}
+function displayDirective(status) {	
+	if(status = true) {
+		button_flag = true;
+		console.log("what is the bf val?", button_flag);
+	}
 }</script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
