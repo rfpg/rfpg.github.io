@@ -1,1 +1,0 @@
-purge of cached images
