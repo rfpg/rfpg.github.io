@@ -4,84 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rfpg design portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-animate.min.js"></script>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e8e8e8;
+            background-color: #f7f7f7;
         }
 
         header {
-            background-color: #1a1a1a;
+            background-color: #333;
             color: #fff;
             padding: 20px;
             text-align: center;
-            position: sticky;
-            top: 0;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-            z-index: 1000;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin: 0;
-            letter-spacing: 2px;
         }
 
         main {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             height: calc(100vh - 80px);
-            padding: 20px;
-            animation: fadeIn 1s ease-in-out;
         }
 
         .button {
-            background-color: #4CAF50;
+            background-color: #B0C4DE ;
             border: none;
             color: white;
-            padding: 15px 30px;
-            font-size: 1rem;
-            cursor: pointer;
-            margin: 15px;
-            border-radius: 50px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease-in-out;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: grabbing;
+            margin: 10px;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .button.ng-enter {
+            opacity: 0;
+            transform: scale(0.8);
+        }
+
+        .button.ng-enter-active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .button.ng-leave {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .button.ng-leave-active {
+            opacity: 0;
+            transform: scale(0.8);
         }
 
         .button:hover {
-            transform: scale(1.1);
-            background-color: #81C784;
-        }
-
-        .button:active {
-            transform: scale(1.05);
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            background-color: #BFEFFF;
         }
     </style>
 </head>
-<body>
+<body ng-app="portfolioApp">
     <header>
         <h1>rfpg design portfolio</h1>
     </header>
-    <main>
-        <a href="/3DStage" class="button">3d audio</a>
-        <a href="/chemistry" class="button">chemistry</a>
-        <a href="https://create-digital-studio.github.io/unity-workshops/" class="button">angular</a> 
-        <a href="/granular/app.html" class="button">audio mangler</a>
-        <a href="/tspppa" class="button">math</a>
-        <a href="/unityworkshop2d" class="button">2d game design</a>
-        <a href="/soundobject" class="button">binaural</a>
-        <a href="/sos" class="button">iot</a>
-        <a href="/cmmas" class="button">cmmas media</a>
-        <a href="/yrba" class="button">data viz</a>
+    <main ng-controller="MainController">
+        <a href="/3DStage" class="button" ng-repeat="button in buttons" ng-if="button.visible">{{button.name}}</a>
     </main>
+
+    <script>
+        angular.module('portfolioApp', ['ngAnimate'])
+            .controller('MainController', function($scope) {
+                $scope.buttons = [
+                    { name: '3d audio', visible: true },
+                    { name: 'chemistry', visible: true },
+                    { name: 'angular', visible: true },
+                    { name: 'audio mangler', visible: true },
+                    { name: 'math', visible: true },
+                    { name: '2d game design', visible: true },
+                    { name: 'binaural', visible: true },
+                    { name: 'iot', visible: true },
+                    { name: 'cmmas media', visible: true },
+                    { name: 'data viz', visible: true }
+                ];
+            });
+    </script>
 </body>
 </html>
