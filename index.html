@@ -1,44 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="portfolioApp" ng-cloak>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rfpg design portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7;
+            background-color: #e8e8e8;
         }
 
         header {
-            background-color: #333;
+            background-color: #1a1a1a;
             color: #fff;
             padding: 20px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 2px;
         }
 
         main {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             height: calc(100vh - 80px);
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out;
         }
 
         .button {
-            background-color: #B0C4DE ;
+            background-color: #4CAF50;
             border: none;
             color: white;
-            padding: 14px 28px;
-            font-size: 16px;
-            cursor: grabbing;
-            margin: 10px;
-            border-radius: 8px;
+            padding: 15px 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 15px;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
         }
 
         .button:hover {
-            background-color: #BFEFFF;
+            transform: scale(1.1);
+            background-color: #81C784;
+        }
+
+        .button:active {
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
     </style>
 </head>
@@ -47,16 +72,26 @@
         <h1>rfpg design portfolio</h1>
     </header>
     <main>
-        <a href="/3DStage" class="button">3d audio</a>
-        <a href="/chemistry" class="button">chemistry</a>
-        <a href="https://create-digital-studio.github.io/unity-workshops/" class="button">angular</a> 
-        <a href="/granular/app.html" class="button">audio mangler</a>
-        <a href="/tspppa" class="button">math</a>
-        <a href="/unityworkshop2d" class="button">2d game design</a>
-        <a href="/soundobject" class="button">binaural</a>
-        <a href="/sos" class="button">iot</a>
-        <a href="/cmmas" class="button">cmmas media</a>
-        <a href="/yrba" class="button">data viz</a>
+        <a href="/3DStage" class="button" ng-click="animate()">3d audio</a>
+        <a href="/chemistry" class="button" ng-click="animate()">chemistry</a>
+        <a href="https://create-digital-studio.github.io/unity-workshops/" class="button" ng-click="animate()">angular</a> 
+        <a href="/granular/app.html" class="button" ng-click="animate()">audio mangler</a>
+        <a href="/tspppa" class="button" ng-click="animate()">math</a>
+        <a href="/unityworkshop2d" class="button" ng-click="animate()">2d game design</a>
+        <a href="/soundobject" class="button" ng-click="animate()">binaural</a>
+        <a href="/sos" class="button" ng-click="animate()">iot</a>
+        <a href="/cmmas" class="button" ng-click="animate()">cmmas media</a>
+        <a href="/yrba" class="button" ng-click="animate()">data viz</a>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular-animate.min.js"></script>
+    <script>
+        angular.module('portfolioApp', ['ngAnimate'])
+        .controller('MainController', function($scope) {
+            $scope.animate = function() {
+                // Add your animation logic here
+            };
+        });
+    </script>
 </body>
 </html>
