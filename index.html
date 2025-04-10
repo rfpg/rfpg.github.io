@@ -4,105 +4,462 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rfpg design portfolio</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-animate.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        :root {
+            --primary-color: #121212;
+            --secondary-color: #f9f9f9;
+            --accent-color: #555555;
+            --text-color: #222222;
+            --light-text: #ffffff;
+            --dark-bg: #111111;
+            --card-bg: #ffffff;
+            --hover-color: #000000;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-lg: 0 4px 6px rgba(0, 0, 0, 0.05);
+            --transition-fast: 0.2s ease;
+            --transition-normal: 0.3s ease;
+            --transition-slow: 0.5s ease;
+        }
+
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f0f4f8;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-weight: 400;
         }
 
         header {
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            padding: 20px;
-            text-align: center;
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            padding: 1.5rem 2rem;
+            position: relative;
+        }
+
+        .header-container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         h1 {
-            font-size: 2.5rem;
+            font-size: 1.8rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            position: relative;
+            display: inline-block;
             margin: 0;
-            letter-spacing: 1.5px;
+        }
+
+        h1::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: var(--light-text);
+            transition: width var(--transition-normal);
+        }
+
+        h1:hover::after {
+            width: 100%;
         }
 
         main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 3rem 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+        }
+
+        .intro h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .intro p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+
+        .button-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
-            height: calc(100vh - 80px);
-            padding: 20px;
+            gap: 1rem;
+            width: 100%;
+            padding: 0 1rem;
         }
 
         .button {
-            background-color: #b0c4de;
+            position: relative;
+            background-color: var(--card-bg);
+            color: var(--primary-color);
             border: none;
-            color: #2c3e50;
-            padding: 15px 30px;
-            font-size: 1rem;
+            font-size: 0.95rem;
+            font-weight: 400;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
             cursor: pointer;
-            margin: 15px;
-            border-radius: 25px;
-            transition: all 0.3s ease-in-out;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all var(--transition-normal);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 160px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s forwards;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--primary-color);
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform var(--transition-normal);
+            z-index: -1;
         }
 
         .button:hover {
-            background-color: #d3e0ea;
+            color: var(--light-text);
+            box-shadow: var(--shadow-md);
         }
 
-        .button.ng-enter {
+        .button:hover::before {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+        .button:active {
+            transform: translateY(1px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Button icon animation */
+        .button i {
+            margin-right: 0;
+            transition: all var(--transition-normal);
             opacity: 0;
-            transform: scale(0.8);
+            width: 0;
+            transform: rotate(0deg);
         }
 
-        .button.ng-enter-active {
+        .button:hover i {
             opacity: 1;
-            transform: scale(1);
+            width: auto;
+            margin-right: 8px;
+            transform: rotate(360deg);
         }
 
-        .button.ng-leave {
+        /* Category highlight */
+        .tech-button { border-left: 2px solid #333; }
+        .audio-button { border-left: 2px solid #555; }
+        .game-button { border-left: 2px solid #777; }
+        .data-button { border-left: 2px solid #999; }
+        .misc-button { border-left: 2px solid #aaa; }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            main {
+                padding: 2rem 1rem;
+            }
+            
+            .button {
+                font-size: 0.9rem;
+                padding: 0.7rem 1.3rem;
+                min-width: 150px;
+            }
+            
+            .intro h2 {
+                font-size: 1.3rem;
+            }
+            
+            .intro p {
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            h1::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .button-container {
+                gap: 0.7rem;
+            }
+            
+            .button {
+                min-width: 130px;
+                padding: 0.6rem 1rem;
+            }
+        }
+
+        /* Dark mode toggle */
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--light-text);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            transform: rotate(30deg);
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            text-align: center;
+            padding: 1.2rem;
+            margin-top: auto;
+            font-size: 0.8rem;
+            font-weight: 300;
+        }
+
+        footer a {
+            color: var(--light-text);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            transition: border-color var(--transition-fast);
+        }
+
+        footer a:hover {
+            border-color: var(--light-text);
+        }
+
+        /* Dark mode styles */
+        body.dark-mode {
+            --secondary-color: #121212;
+            --text-color: #e0e0e0;
+            --card-bg: #1a1a1a;
+            --primary-color: #f5f5f5;
+            --accent-color: #aaaaaa;
+        }
+
+        body.dark-mode .button {
+            color: var(--light-text);
+            background-color: #222;
+            border-color: #333;
+        }
+
+        body.dark-mode .button::before {
+            background-color: #333;
+        }
+
+        body.dark-mode .intro p {
+            color: #aaa;
+        }
+
+        /* Loading animation */
+        .loader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: var(--secondary-color);
+            z-index: 9999;
             opacity: 1;
-            transform: scale(1);
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+            visibility: visible;
         }
 
-        .button.ng-leave-active {
+        .loader.hidden {
             opacity: 0;
-            transform: scale(0.8);
+            visibility: hidden;
+        }
+
+        .dot-loader {
+            display: flex;
+            gap: 8px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            animation: dotPulse 1.5s infinite ease-in-out;
+        }
+
+        .dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes dotPulse {
+            0%, 100% { transform: scale(0.5); opacity: 0.3; }
+            50% { transform: scale(1); opacity: 1; }
         }
     </style>
 </head>
-<body ng-app="portfolioApp">
+<body>
+    <div id="loader" class="loader">
+        <div class="dot-loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
     <header>
-        <h1>rfpg design portfolio</h1>
+        <div class="header-container">
+            <h1>rfpg design portfolio</h1>
+            <button id="themeToggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
     </header>
-    <main ng-controller="MainController">
-        <a href="{{button.link}}" class="button" ng-repeat="button in buttons" ng-if="button.visible">{{button.name}}</a>
+
+    <main>
+        <div class="intro">
+            <h2>ricky's portfolio</h2>
+            <p>a collection of projects spanning audio synthesis, neural networks, game development, and ui/ux.</p>
+        </div>
+
+        <div id="buttonContainer" class="button-container">
+            <!-- Buttons will be added here by JavaScript -->
+        </div>
     </main>
 
+    <footer>
+        <p>© 2023 RFPG Design Portfolio. All rights reserved.</p>
+    </footer>
+
     <script>
-        angular.module('portfolioApp', ['ngAnimate'])
-            .controller('MainController', function($scope) {
-                $scope.buttons = [
-                    { name: '3d audio', link: '/3DStage', visible: true },
-                    { name: 'neural net', link: '/neuralnet', visible: true },
-                    { name: 'commercial plugins', link: 'http://deltasoundlabs.com', visible: true },
-                    { name: 'chemistry', link: '/chemistry', visible: true },
-                    { name: 'angular', link: 'https://create-digital-studio.github.io/unity-workshops/', visible: true },
-                    { name: 'audio mangler', link: '/granular/app.html', visible: true },
-                    { name: 'math', link: '/tspppa', visible: true },
-                    { name: '2d game design', link: '/unityworkshop2d', visible: true },
-                    { name: 'binaural', link: '/soundobject', visible: true },
-                    { name: 'iot', link: '/sos', visible: true },
-                    { name: 'cmmas media', link: '/cmmas', visible: true },
-                    { name: 'data viz', link: '/yrba', visible: true },
-                    { name: 'cipher fun', link: '/cipher', visible: true },
-                    { name: 'pure data (c)', link: 'https://puredata.info/Members/ricky/software/rfpg/0.1/', visible: true },
-                    { name: 'interactive timeline', link: '/timeline', visible: true }
-                ];
+        // Button data with icons and categories
+        const buttonData = [
+            { name: '3d audio', link: '/3DStage', icon: 'fas fa-headphones', category: 'audio-button' },
+            { name: 'neural net', link: '/neuralnet', icon: 'fas fa-brain', category: 'tech-button' },
+            { name: 'commercial plugins', link: 'http://deltasoundlabs.com', icon: 'fas fa-plug', category: 'audio-button' },
+            { name: 'chemistry', link: '/chemistry', icon: 'fas fa-flask', category: 'misc-button' },
+            { name: 'angular', link: 'https://create-digital-studio.github.io/unity-workshops/', icon: 'fab fa-angular', category: 'tech-button' },
+            { name: 'audio mangler', link: '/granular/app.html', icon: 'fas fa-music', category: 'audio-button' },
+            { name: 'math', link: '/tspppa', icon: 'fas fa-square-root-alt', category: 'misc-button' },
+            { name: '2d game design', link: '/unityworkshop2d', icon: 'fas fa-gamepad', category: 'game-button' },
+            { name: 'binaural', link: '/soundobject', icon: 'fas fa-volume-up', category: 'audio-button' },
+            { name: 'iot', link: '/sos', icon: 'fas fa-microchip', category: 'tech-button' },
+            { name: 'cmmas media', link: '/cmmas', icon: 'fas fa-photo-video', category: 'misc-button' },
+            { name: 'data viz', link: '/yrba', icon: 'fas fa-chart-bar', category: 'data-button' },
+            { name: 'cipher fun', link: '/cipher', icon: 'fas fa-key', category: 'misc-button' },
+            { name: 'pure data (c)', link: 'https://puredata.info/Members/ricky/software/rfpg/0.1/', icon: 'fas fa-code', category: 'tech-button' },
+            { name: 'interactive timeline', link: '/timeline', icon: 'fas fa-clock', category: 'data-button' }
+        ];
+
+        // DOM elements
+        const buttonContainer = document.getElementById('buttonContainer');
+        const themeToggle = document.getElementById('themeToggle');
+        const loader = document.getElementById('loader');
+
+        // Dark mode toggle functionality
+        let darkMode = false;
+        themeToggle.addEventListener('click', () => {
+            darkMode = !darkMode;
+            document.body.classList.toggle('dark-mode', darkMode);
+            themeToggle.innerHTML = darkMode ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        });
+
+        // Create buttons with staggered animation
+        function createButtons() {
+            buttonContainer.innerHTML = '';
+            
+            buttonData.forEach((button, index) => {
+                const buttonElement = document.createElement('a');
+                buttonElement.href = button.link;
+                buttonElement.className = `button ${button.category}`;
+                buttonElement.style.animationDelay = `${index * 0.05}s`;
+                
+                const icon = document.createElement('i');
+                icon.className = button.icon;
+                
+                buttonElement.appendChild(icon);
+                buttonElement.appendChild(document.createTextNode(button.name));
+                
+                buttonContainer.appendChild(buttonElement);
             });
+        }
+
+        // Initialize the page
+        window.addEventListener('DOMContentLoaded', () => {
+            // Hide loader after 1.5 seconds
+            setTimeout(() => {
+                loader.classList.add('hidden');
+            }, 1500);
+            
+            // Create buttons with animation
+            createButtons();
+        });
     </script>
 </body>
 </html>
