@@ -203,6 +203,31 @@
             transform: rotate(360deg);
         }
 
+        /* Category styles */
+        .category-section {
+            width: 100%;
+            margin: 2rem 0 1rem;
+            text-align: center;
+        }
+
+        .category-header {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 0.8rem;
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+            min-width: 150px;
+            margin-bottom: 1.5rem;
+        }
+
+        body.dark-mode .category-header {
+            color: var(--light-text);
+            border-bottom-color: #555;
+        }
+
         /* Category highlight */
         .tech-button { border-left: 2px solid #333; }
         .audio-button { border-left: 2px solid #555; }
@@ -385,7 +410,7 @@
     <main>
         <div class="intro">
             <h2>ricky's portfolio</h2>
-            <p>a collection of projects spanning audio synthesis, neural networks, game development, and ui/ux.</p>
+            <p>recent live repo examples across audio, data, games, and creative coding, all linked to active GitHub Pages demos.</p>
         </div>
 
         <div id="buttonContainer" class="button-container">
@@ -398,25 +423,45 @@
     </footer>
 
     <script>
-        // Button data with icons and categories
-        const buttonData = [
-            { name: '3d audio', link: '/3DStage', icon: 'fas fa-headphones', category: 'audio-button' },
-            { name: 'neural net', link: '/neuralnet', icon: 'fas fa-brain', category: 'tech-button' },
-            { name: 'commercial plugins', link: 'http://deltasoundlabs.com', icon: 'fas fa-plug', category: 'audio-button' },
-            { name: 'chemistry', link: '/chemistry', icon: 'fas fa-flask', category: 'misc-button' },
-            { name: 'angular', link: 'https://create-digital-studio.github.io/unity-workshops/', icon: 'fab fa-angular', category: 'tech-button' },
-            { name: 'audio mangler', link: '/granular/app.html', icon: 'fas fa-music', category: 'audio-button' },
-            { name: 'math', link: '/tspppa', icon: 'fas fa-square-root-alt', category: 'misc-button' },
-            { name: '2d game design', link: '/unityworkshop2d', icon: 'fas fa-gamepad', category: 'game-button' },
-            { name: 'binaural', link: '/soundobject', icon: 'fas fa-volume-up', category: 'audio-button' },
-            { name: 'iot', link: '/sos', icon: 'fas fa-microchip', category: 'tech-button' },
-            { name: 'satcom', link: '/satcom', icon: 'fas fa-satellite', category: 'tech-button' },
-            { name: 'cmmas media', link: '/cmmas', icon: 'fas fa-photo-video', category: 'misc-button' },
-            { name: 'data viz', link: '/yrba', icon: 'fas fa-chart-bar', category: 'data-button' },
-            { name: 'cipher fun', link: '/cipher', icon: 'fas fa-key', category: 'misc-button' },
-            { name: 'pure data (c)', link: 'https://puredata.info/Members/ricky/software/rfpg/0.1/', icon: 'fas fa-code', category: 'tech-button' },
-            { name: 'interactive timeline', link: '/timeline', icon: 'fas fa-clock', category: 'data-button' }
-        ];
+        // Live GitHub Pages projects organized by category
+        const projectsByCategory = {
+            audio: [
+                { name: 'tattoo', link: 'https://rfpg.github.io/tattoo/', icon: 'fas fa-pen-nib' },
+                { name: 'ots', link: 'https://rfpg.github.io/ots/', icon: 'fas fa-wave-square' },
+                { name: 'cutup', link: 'https://rfpg.github.io/cutup/', icon: 'fas fa-scissors' },
+                { name: 'audio mangler', link: 'https://rfpg.github.io/granular/', icon: 'fas fa-music' },
+                { name: '3d audio', link: 'https://rfpg.github.io/3DStage/', icon: 'fas fa-headphones' },
+                { name: 'binaural', link: 'https://rfpg.github.io/soundobject/', icon: 'fas fa-volume-up' }
+            ],
+            tech: [
+                { name: 'satcom', link: 'https://rfpg.github.io/satcom/', icon: 'fas fa-satellite' },
+                { name: 'megamenu', link: 'https://rfpg.github.io/megamenu/', icon: 'fas fa-bars' },
+                { name: 'neural net', link: 'https://rfpg.github.io/neuralnet/', icon: 'fas fa-brain' },
+                { name: 'link checker', link: 'https://rfpg.github.io/linkchecker/', icon: 'fas fa-link' },
+                { name: 'iot (sos)', link: 'https://rfpg.github.io/sos/', icon: 'fas fa-microchip' },
+                { name: 'cds workshops', link: 'https://rfpg.github.io/cdsworkshops/', icon: 'fas fa-chalkboard-teacher' }
+            ],
+            data: [
+                { name: 'interactive timeline', link: 'https://rfpg.github.io/timeline/', icon: 'fas fa-clock' },
+                { name: 'math modules', link: 'https://rfpg.github.io/tspppa/', icon: 'fas fa-square-root-alt' }
+            ],
+            games: [
+                { name: '2d game design', link: 'https://rfpg.github.io/unityworkshop2d/', icon: 'fas fa-gamepad' }
+            ],
+            misc: [
+                { name: 'cipher fun', link: 'https://rfpg.github.io/cipher/', icon: 'fas fa-key' },
+                { name: 'cmmas media', link: 'https://rfpg.github.io/cmmas/', icon: 'fas fa-photo-video' },
+                { name: 'chemistry', link: 'https://rfpg.github.io/chemistry/', icon: 'fas fa-flask' }
+            ]
+        };
+
+        const categoryMetadata = {
+            audio: { label: 'Audio & Sound', class: 'audio-button' },
+            tech: { label: 'Technology & Tools', class: 'tech-button' },
+            data: { label: 'Data & Visualization', class: 'data-button' },
+            games: { label: 'Games', class: 'game-button' },
+            misc: { label: 'Misc & Creative', class: 'misc-button' }
+        };
 
         // DOM elements
         const buttonContainer = document.getElementById('buttonContainer');
@@ -431,23 +476,50 @@
             themeToggle.innerHTML = darkMode ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
         });
 
-        // Create buttons with staggered animation
+        // Create buttons organized by category with section headers
         function createButtons() {
             buttonContainer.innerHTML = '';
+            let globalIndex = 0;
             
-            buttonData.forEach((button, index) => {
-                const buttonElement = document.createElement('a');
-                buttonElement.href = button.link;
-                buttonElement.className = `button ${button.category}`;
-                buttonElement.style.animationDelay = `${index * 0.05}s`;
+            Object.keys(projectsByCategory).forEach((categoryKey) => {
+                const projects = projectsByCategory[categoryKey];
+                const metadata = categoryMetadata[categoryKey];
                 
-                const icon = document.createElement('i');
-                icon.className = button.icon;
+                // Create section header
+                const sectionDiv = document.createElement('div');
+                sectionDiv.className = 'category-section';
                 
-                buttonElement.appendChild(icon);
-                buttonElement.appendChild(document.createTextNode(button.name));
+                const headerDiv = document.createElement('div');
+                headerDiv.className = 'category-header';
+                headerDiv.textContent = metadata.label;
+                sectionDiv.appendChild(headerDiv);
                 
-                buttonContainer.appendChild(buttonElement);
+                // Create button wrapper for this category
+                const buttonWrapper = document.createElement('div');
+                buttonWrapper.className = 'button-container';
+                buttonWrapper.style.marginBottom = '0';
+                
+                // Add buttons
+                projects.forEach((button) => {
+                    const buttonElement = document.createElement('a');
+                    buttonElement.href = button.link;
+                    buttonElement.target = '_blank';
+                    buttonElement.rel = 'noopener noreferrer';
+                    buttonElement.className = `button ${metadata.class}`;
+                    buttonElement.style.animationDelay = `${globalIndex * 0.05}s`;
+                    
+                    const icon = document.createElement('i');
+                    icon.className = button.icon;
+                    
+                    buttonElement.appendChild(icon);
+                    buttonElement.appendChild(document.createTextNode(button.name));
+                    
+                    buttonWrapper.appendChild(buttonElement);
+                    globalIndex++;
+                });
+                
+                sectionDiv.appendChild(buttonWrapper);
+                buttonContainer.appendChild(sectionDiv);
             });
         }
 
