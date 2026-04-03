@@ -71,11 +71,106 @@
             transition: background var(--transition-normal);
         }
 
-        .ogham-column.is-animating .svg-wrap {
-            background:
-                radial-gradient(circle at top, rgba(185, 151, 87, 0.18), transparent 34%),
-                #fffdf8;
+
+        .ogham-ornament-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: 2;
+            pointer-events: none;
+            opacity: 0.64;
         }
+
+        .ogham-ornament-overlay .manuscript-rail {
+            stroke: #7e6a4f;
+            stroke-width: 1.1;
+            fill: none;
+            opacity: 0.42;
+        }
+
+        .ogham-ornament-overlay .interlace {
+            stroke: #8b7355;
+            stroke-width: 1.35;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-dasharray: 9 11;
+            animation: interlaceDrift 13s linear infinite;
+        }
+
+        .ogham-ornament-overlay .medallion-ring {
+            stroke: #6f7782;
+            stroke-width: 1.2;
+            fill: none;
+            opacity: 0.44;
+            animation: medallionBreath 9s ease-in-out infinite;
+        }
+
+        .ogham-ornament-overlay .medallion-core {
+            fill: #8b7355;
+            opacity: 0.55;
+            animation: corePulse 9s ease-in-out infinite;
+        }
+
+        .ogham-ornament-overlay .spiral {
+            stroke: #6f7782;
+            stroke-width: 1.15;
+            fill: none;
+            stroke-linecap: round;
+            opacity: 0.38;
+            animation: spiralLift 11s ease-in-out infinite;
+        }
+
+        @keyframes interlaceDrift {
+            from {
+                stroke-dashoffset: 0;
+                opacity: 0.35;
+            }
+            50% {
+                opacity: 0.58;
+            }
+            to {
+                stroke-dashoffset: -140;
+                opacity: 0.35;
+            }
+        }
+
+        @keyframes medallionBreath {
+            0%,
+            100% {
+                opacity: 0.34;
+                transform: scale(1);
+                transform-origin: center;
+            }
+            50% {
+                opacity: 0.58;
+                transform: scale(1.028);
+                transform-origin: center;
+            }
+        }
+
+        @keyframes corePulse {
+            0%,
+            100% {
+                opacity: 0.38;
+            }
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        @keyframes spiralLift {
+            0%,
+            100% {
+                opacity: 0.3;
+                transform: translateY(0);
+            }
+            50% {
+                opacity: 0.52;
+                transform: translateY(-1.5px);
+            }
+        }
+
+
 
         .ogham-column .svg-wrap svg {
             width: 100%;
@@ -83,25 +178,69 @@
             max-width: 180px;
         }
 
-        .ogham-svg .spine,
-        .ogham-svg .fuaim,
-        .ogham-svg .ceol {
-            stroke: #111;
+        .ogham-svg .spine {
+            stroke: #555;
+            stroke-width: 6;
+            fill: none;
+            animation: spineGlow 6s ease-in-out infinite;
+        }
+
+        .ogham-svg .fuaim {
+            stroke: #8B7355;
             stroke-width: 3;
             fill: none;
-            transition: opacity .45s ease;
+            animation: fuaimFade 6s ease-in-out infinite;
         }
 
-        .ogham-svg .spine {
-            stroke-width: 6;
+        .ogham-svg .ceol {
+            stroke: #6B7B8B;
+            stroke-width: 3;
+            fill: none;
+            animation: ceolFade 6s ease-in-out infinite;
         }
 
-        .ogham-svg.mode-b .ceol {
-            opacity: 0;
+        @keyframes fuaimFade {
+            0% {
+                stroke: #8B7355;
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.3;
+            }
+            100% {
+                stroke: #8B7355;
+                opacity: 1;
+            }
         }
 
-        .ogham-svg.mode-c .fuaim {
-            opacity: 0;
+        @keyframes ceolFade {
+            0% {
+                stroke: #6B7B8B;
+                opacity: 0.3;
+            }
+            50% {
+                opacity: 1;
+                stroke: #6B7B8B;
+            }
+            100% {
+                stroke: #6B7B8B;
+                opacity: 0.3;
+            }
+        }
+
+        @keyframes spineGlow {
+            0% {
+                stroke: #666;
+                opacity: 0.7;
+            }
+            50% {
+                stroke: #444;
+                opacity: 1;
+            }
+            100% {
+                stroke: #666;
+                opacity: 0.7;
+            }
         }
 
         body.has-ogham-column header,
@@ -116,11 +255,167 @@
             margin-right: 0;
         }
 
+        /* Hiberno-Saxon Ornamentation */
+        .ornament {
+            display: inline-block;
+            opacity: 0.5;
+            transition: opacity var(--transition-normal);
+            margin: 0 8px;
+        }
+
+        .ornament-header-left,
+        .ornament-header-right {
+            opacity: 0.35;
+            margin: 0 12px;
+        }
+
+        .ornament-intro-top {
+            display: block;
+            margin: 0 auto 1rem;
+            opacity: 0.4;
+        }
+
+        .ornament:hover {
+            opacity: 0.8;
+        }
+
+        .ornament-corner {
+            position: absolute;
+            opacity: 0.15;
+            pointer-events: none;
+        }
+
+        .ornament-corner.top-left {
+            top: 12px;
+            left: 12px;
+        }
+
+        .ornament-corner.top-right {
+            top: 12px;
+            right: 12px;
+        }
+
+        .ornament-corner.bottom-left {
+            bottom: 12px;
+            left: 12px;
+        }
+
+        .ornament-corner.bottom-right {
+            bottom: 12px;
+            right: 12px;
+        }
+
+        .button {
+            position: relative;
+            background-color: var(--card-bg);
+            color: var(--primary-color);
+            border: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 160px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s forwards;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .button::after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 60%;
+            background: linear-gradient(180deg, transparent, #8B7355, transparent);
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: opacity var(--transition-normal);
+        }
+
+        .button:hover::after {
+            opacity: 0.4;
+        }
+
         header {
             background-color: var(--dark-bg);
             color: var(--light-text);
             padding: 1.5rem 2rem;
             position: relative;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        header::before,
+        header::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 115, 85, 0.3), transparent);
+            width: 100%;
+            left: 0;
+        }
+
+        header::before {
+            top: 0;
+        }
+
+        header::after {
+            bottom: 0;
+        }
+
+        .category-section {
+            position: relative;
+            padding: 1.5rem 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .category-section::before {
+            content: '◆';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #8B7355;
+            font-size: 1.2rem;
+            opacity: 0.3;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+            position: relative;
+        }
+
+        .intro::before,
+        .intro::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background: linear-gradient(90deg, #8B7355, transparent);
+            top: -1.2rem;
+        }
+
+        .intro::before {
+            left: 50%;
+            transform: translateX(-100%);
+        }
+
+        .intro::after {
+            right: 50%;
+            transform: translateX(100%);
+            background: linear-gradient(90deg, transparent, #8B7355);
         }
 
         .header-container {
@@ -394,7 +689,6 @@
             transform: rotate(30deg);
         }
 
-        /* Footer styles */
         footer {
             background-color: var(--dark-bg);
             color: var(--light-text);
@@ -403,6 +697,18 @@
             margin-top: auto;
             font-size: 0.8rem;
             font-weight: 300;
+            position: relative;
+            border-top: 1px solid rgba(139, 115, 85, 0.15);
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 115, 85, 0.3), transparent);
         }
 
         footer a {
@@ -486,6 +792,47 @@
             0%, 100% { transform: scale(0.5); opacity: 0.3; }
             50% { transform: scale(1); opacity: 1; }
         }
+
+        /* Ornament animations */
+        @keyframes ornamentGlow {
+            0%, 100% { 
+                opacity: 0.4;
+                filter: drop-shadow(0 0 0px rgba(139, 115, 85, 0));
+            }
+            50% { 
+                opacity: 0.7;
+                filter: drop-shadow(0 0 3px rgba(139, 115, 85, 0.4));
+            }
+        }
+
+        .ornament-intro-top {
+            animation: ornamentGlow 4s ease-in-out infinite;
+        }
+
+        .ornament-header-left,
+        .ornament-header-right {
+            animation: ornamentGlow 5s ease-in-out infinite;
+        }
+
+        footer .ornament {
+            animation: ornamentGlow 6s ease-in-out infinite;
+        }
+
+        .intro::before,
+        .intro::after {
+            animation: fadeLineIn 1s ease-out forwards;
+        }
+
+        @keyframes fadeLineIn {
+            from {
+                width: 0;
+                opacity: 0;
+            }
+            to {
+                width: 40px;
+                opacity: 1;
+            }
+        }
     </style>
 </head>
 <body class="dark-mode has-ogham-column">
@@ -546,6 +893,34 @@
                     <line x1="100" y1="590" x2="140" y2="590"></line>
                 </g>
             </svg>
+            <svg class="ogham-ornament-overlay" viewBox="0 0 200 800" aria-hidden="true">
+                <path class="manuscript-rail" d="M24 34 L24 766"></path>
+                <path class="manuscript-rail" d="M176 34 L176 766"></path>
+                <path class="manuscript-rail" d="M32 34 L32 766"></path>
+                <path class="manuscript-rail" d="M168 34 L168 766"></path>
+
+                <path class="interlace" d="M38 90 C74 58, 126 58, 162 90 C126 122, 74 122, 38 90"></path>
+                <path class="interlace" d="M38 222 C74 190, 126 190, 162 222 C126 254, 74 254, 38 222"></path>
+                <path class="interlace" d="M38 354 C74 322, 126 322, 162 354 C126 386, 74 386, 38 354"></path>
+                <path class="interlace" d="M38 486 C74 454, 126 454, 162 486 C126 518, 74 518, 38 486"></path>
+                <path class="interlace" d="M38 618 C74 586, 126 586, 162 618 C126 650, 74 650, 38 618"></path>
+
+                <circle class="medallion-ring" cx="100" cy="90" r="10"></circle>
+                <circle class="medallion-core" cx="100" cy="90" r="2.3"></circle>
+                <circle class="medallion-ring" cx="100" cy="222" r="10"></circle>
+                <circle class="medallion-core" cx="100" cy="222" r="2.3"></circle>
+                <circle class="medallion-ring" cx="100" cy="354" r="10"></circle>
+                <circle class="medallion-core" cx="100" cy="354" r="2.3"></circle>
+                <circle class="medallion-ring" cx="100" cy="486" r="10"></circle>
+                <circle class="medallion-core" cx="100" cy="486" r="2.3"></circle>
+                <circle class="medallion-ring" cx="100" cy="618" r="10"></circle>
+                <circle class="medallion-core" cx="100" cy="618" r="2.3"></circle>
+
+                <path class="spiral" d="M46 152 C54 140, 68 140, 76 152 C82 162, 79 176, 69 181 C58 186, 47 180, 42 170"></path>
+                <path class="spiral" d="M154 152 C146 140, 132 140, 124 152 C118 162, 121 176, 131 181 C142 186, 153 180, 158 170"></path>
+                <path class="spiral" d="M46 548 C54 536, 68 536, 76 548 C82 558, 79 572, 69 577 C58 582, 47 576, 42 566"></path>
+                <path class="spiral" d="M154 548 C146 536, 132 536, 124 548 C118 558, 121 572, 131 577 C142 582, 153 576, 158 566"></path>
+            </svg>
         </div>
     </aside>
     <div id="loader" class="loader">
@@ -558,7 +933,15 @@
 
     <header>
         <div class="header-container">
+            <svg class="ornament ornament-header-left" viewBox="0 0 40 40" width="32" height="32" aria-hidden="true">
+                <path d="M8 8 Q12 12 8 16 Q12 12 16 16 Q12 12 16 8" stroke="#8B7355" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <circle cx="12" cy="12" r="1.5" fill="#8B7355"/>
+            </svg>
             <h1>rfpg design portfolio</h1>
+            <svg class="ornament ornament-header-right" viewBox="0 0 40 40" width="32" height="32" aria-hidden="true">
+                <path d="M32 8 Q28 12 32 16 Q28 12 24 16 Q28 12 24 8" stroke="#8B7355" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <circle cx="28" cy="12" r="1.5" fill="#8B7355"/>
+            </svg>
             <button id="themeToggle" class="theme-toggle">
                 <i class="fas fa-sun"></i>
             </button>
@@ -567,7 +950,12 @@
 
     <main>
         <div class="intro">
-            <h2>ricky's portfolio</h2>
+            <svg class="ornament ornament-intro-top" viewBox="0 0 60 20" width="60" height="20" aria-hidden="true">
+                <path d="M5 10 Q10 5 15 10 Q20 15 25 10 Q30 5 35 10 Q40 15 45 10 Q50 5 55 10" stroke="#8B7355" stroke-width="1" fill="none" stroke-linecap="round"/>
+                <circle cx="15" cy="10" r="1" fill="#8B7355" opacity="0.6"/>
+                <circle cx="35" cy="10" r="1" fill="#8B7355" opacity="0.6"/>
+                <circle cx="55" cy="10" r="1" fill="#8B7355" opacity="0.6"/>
+            </svg>
             <p>recent live repo examples across audio, data, games, and creative coding, all linked to active GitHub Pages demos.</p>
         </div>
 
@@ -577,6 +965,18 @@
     </main>
 
     <footer>
+        <svg class="ornament" viewBox="0 0 80 16" width="80" height="16" aria-hidden="true" style="margin-bottom: 0.8rem;">
+            <g stroke="#8B7355" stroke-width="0.8" fill="none">
+                <path d="M5 8 Q8 4 11 8"/>
+                <path d="M15 8 Q18 4 21 8"/>
+                <path d="M25 8 Q28 4 31 8"/>
+                <path d="M35 8 Q38 4 41 8"/>
+                <path d="M45 8 Q48 4 51 8"/>
+                <path d="M55 8 Q58 4 61 8"/>
+                <path d="M65 8 Q68 4 71 8"/>
+                <path d="M75 8 Q78 4 81 8"/>
+            </g>
+        </svg>
         <p>© 2023 RFPG Design Portfolio. All rights reserved.</p>
     </footer>
 
@@ -584,12 +984,14 @@
         // Live GitHub Pages projects organized by category
         const projectsByCategory = {
             audio: [
-                { name: 'tattoo', link: 'https://rfpg.github.io/tattoo/', icon: 'fas fa-pen-nib' },
-                { name: 'ots', link: 'https://rfpg.github.io/ots/', icon: 'fas fa-wave-square' },
-                { name: 'cutup', link: 'https://rfpg.github.io/cutup/', icon: 'fas fa-scissors' },
                 { name: 'audio mangler', link: 'https://rfpg.github.io/granular/', icon: 'fas fa-music' },
                 { name: '3d audio', link: 'https://rfpg.github.io/3DStage/', icon: 'fas fa-headphones' },
                 { name: 'binaural', link: 'https://rfpg.github.io/soundobject/', icon: 'fas fa-volume-up' },
+                { name: 'mpe synthesizer', link: 'https://rfpg.github.io/xstream/', icon: 'fas fa-keyboard' },
+                { name: 'music', link: 'https://signalsundertests.com', icon: 'fas fa-record-vinyl' },
+                { name: 'pure data (c)', link: 'https://puredata.info/Members/ricky/software/rfpg/0.1/', icon: 'fas fa-code' },
+                { name: 'cmmas media', link: 'https://rfpg.github.io/cmmas/', icon: 'fas fa-photo-video' },
+                { name: 'publications', link: 'https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=T5enGp0AAAAJ', icon: 'fas fa-book-open' },
                 { name: 'commercial plugins', link: 'http://deltasoundlabs.com', icon: 'fas fa-plug' }
             ],
             tech: [
@@ -597,23 +999,22 @@
                 { name: 'megamenu', link: 'https://rfpg.github.io/megamenu/', icon: 'fas fa-bars' },
                 { name: 'neural net', link: 'https://rfpg.github.io/neuralnet/', icon: 'fas fa-brain' },
                 { name: 'link checker', link: 'https://rfpg.github.io/linkchecker/', icon: 'fas fa-link' },
-                { name: 'iot (sos)', link: 'https://rfpg.github.io/sos/', icon: 'fas fa-microchip' },
-                { name: 'angular', link: 'https://create-digital-studio.github.io/unity-workshops/', icon: 'fab fa-angular' },
-                { name: 'pure data (c)', link: 'https://puredata.info/Members/ricky/software/rfpg/0.1/', icon: 'fas fa-code' }
+                { name: 'ots', link: 'https://rfpg.github.io/ots/', icon: 'fas fa-wave-square' }
             ],
             data: [
                 { name: 'interactive timeline', link: 'https://rfpg.github.io/timeline/', icon: 'fas fa-clock' },
-                { name: 'math modules', link: 'https://rfpg.github.io/tspppa/', icon: 'fas fa-square-root-alt' }
+                { name: 'math modules', link: 'https://rfpg.github.io/tspppa/', icon: 'fas fa-square-root-alt' },
+                { name: 'iot (sos)', link: 'https://rfpg.github.io/sos/', icon: 'fas fa-microchip' }
             ],
             games: [
-                { name: '2d game design', link: 'https://rfpg.github.io/unityworkshop2d/', icon: 'fas fa-gamepad' }
+                { name: '2d game design', link: 'https://rfpg.github.io/unityworkshop2d/', icon: 'fas fa-gamepad' },
+                { name: 'angular', link: 'https://create-digital-studio.github.io/unity-workshops/', icon: 'fab fa-angular' }
             ],
             misc: [
+                { name: 'tattoo', link: 'https://rfpg.github.io/tattoo/', icon: 'fas fa-pen-nib' },
+                { name: 'cutup', link: 'https://rfpg.github.io/cutup/', icon: 'fas fa-scissors' },
                 { name: 'cipher fun', link: 'https://rfpg.github.io/cipher/', icon: 'fas fa-key' },
-                { name: 'cmmas media', link: 'https://rfpg.github.io/cmmas/', icon: 'fas fa-photo-video' },
-                { name: 'chemistry', link: 'https://rfpg.github.io/chemistry/', icon: 'fas fa-flask' },
-                { name: 'music', link: 'https://signalsundertests.com', icon: 'fas fa-record-vinyl' },
-                { name: 'publications', link: 'https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=T5enGp0AAAAJ', icon: 'fas fa-book-open' }
+                { name: 'chemistry', link: 'https://rfpg.github.io/chemistry/', icon: 'fas fa-flask' }
             ]
         };
 
@@ -630,7 +1031,6 @@
         const themeToggle = document.getElementById('themeToggle');
         const loader = document.getElementById('loader');
         const oghamColumn = document.querySelector('.ogham-column');
-        const oghamSvg = document.getElementById('oghamSvg');
 
         // Dark mode toggle functionality
         let darkMode = true;
@@ -640,54 +1040,7 @@
             themeToggle.innerHTML = darkMode ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
         });
 
-        // Tattoo-style live mode animation: mode-a -> mode-b -> mode-c
-        const oghamModes = [
-            { className: 'mode-a', label: 'Both layers' },
-            { className: 'mode-b', label: 'Fuaim only' },
-            { className: 'mode-c', label: 'Ceol only' }
-        ];
-        let oghamModeIndex = 0;
-        let oghamAnimationTimer = null;
-
-        function setOghamMode(index) {
-            const mode = oghamModes[index];
-            oghamSvg.className = `ogham-svg ${mode.className}`;
-            oghamColumn.setAttribute('aria-label', `Toggle ogham layers. Current mode: ${mode.label}`);
-        }
-
-        function advanceOghamMode() {
-            oghamModeIndex = (oghamModeIndex + 1) % oghamModes.length;
-            setOghamMode(oghamModeIndex);
-        }
-
-        function startOghamAnimation() {
-            if (oghamAnimationTimer !== null) {
-                return;
-            }
-            oghamColumn.classList.add('is-animating');
-            oghamAnimationTimer = window.setInterval(advanceOghamMode, 1800);
-        }
-
-        function stopOghamAnimation() {
-            if (oghamAnimationTimer !== null) {
-                window.clearInterval(oghamAnimationTimer);
-                oghamAnimationTimer = null;
-            }
-            oghamColumn.classList.remove('is-animating');
-        }
-
-        oghamColumn.addEventListener('mouseenter', startOghamAnimation);
-        oghamColumn.addEventListener('mouseleave', stopOghamAnimation);
-        oghamColumn.addEventListener('focus', startOghamAnimation);
-        oghamColumn.addEventListener('blur', stopOghamAnimation);
-
-        oghamColumn.addEventListener('click', advanceOghamMode);
-        oghamColumn.addEventListener('keydown', (event) => {
-            if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault();
-                advanceOghamMode();
-            }
-        });
+        // Ogham animation is now pure CSS-based with crossfading between ceol and fuaim
 
         // Create buttons organized by category with section headers
         function createButtons() {
@@ -738,8 +1091,6 @@
 
         // Initialize the page
         window.addEventListener('DOMContentLoaded', () => {
-            setOghamMode(oghamModeIndex);
-
             // Hide loader after 1.5 seconds
             setTimeout(() => {
                 loader.classList.add('hidden');
