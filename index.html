@@ -94,7 +94,6 @@
             stroke-linecap: round;
             stroke-linejoin: round;
             stroke-dasharray: 9 11;
-            animation: interlaceDrift 13s linear infinite;
         }
 
         .ogham-ornament-overlay .medallion-ring {
@@ -102,13 +101,11 @@
             stroke-width: 1.2;
             fill: none;
             opacity: 0.44;
-            animation: medallionBreath 9s ease-in-out infinite;
         }
 
         .ogham-ornament-overlay .medallion-core {
             fill: #8b7355;
             opacity: 0.55;
-            animation: corePulse 9s ease-in-out infinite;
         }
 
         .ogham-ornament-overlay .spiral {
@@ -117,57 +114,6 @@
             fill: none;
             stroke-linecap: round;
             opacity: 0.38;
-            animation: spiralLift 11s ease-in-out infinite;
-        }
-
-        @keyframes interlaceDrift {
-            from {
-                stroke-dashoffset: 0;
-                opacity: 0.35;
-            }
-            50% {
-                opacity: 0.58;
-            }
-            to {
-                stroke-dashoffset: -140;
-                opacity: 0.35;
-            }
-        }
-
-        @keyframes medallionBreath {
-            0%,
-            100% {
-                opacity: 0.34;
-                transform: scale(1);
-                transform-origin: center;
-            }
-            50% {
-                opacity: 0.58;
-                transform: scale(1.028);
-                transform-origin: center;
-            }
-        }
-
-        @keyframes corePulse {
-            0%,
-            100% {
-                opacity: 0.38;
-            }
-            50% {
-                opacity: 0.7;
-            }
-        }
-
-        @keyframes spiralLift {
-            0%,
-            100% {
-                opacity: 0.3;
-                transform: translateY(0);
-            }
-            50% {
-                opacity: 0.52;
-                transform: translateY(-1.5px);
-            }
         }
 
 
@@ -793,46 +739,7 @@
             50% { transform: scale(1); opacity: 1; }
         }
 
-        /* Ornament animations */
-        @keyframes ornamentGlow {
-            0%, 100% { 
-                opacity: 0.4;
-                filter: drop-shadow(0 0 0px rgba(139, 115, 85, 0));
-            }
-            50% { 
-                opacity: 0.7;
-                filter: drop-shadow(0 0 3px rgba(139, 115, 85, 0.4));
-            }
-        }
 
-        .ornament-intro-top {
-            animation: ornamentGlow 4s ease-in-out infinite;
-        }
-
-        .ornament-header-left,
-        .ornament-header-right {
-            animation: ornamentGlow 5s ease-in-out infinite;
-        }
-
-        footer .ornament {
-            animation: ornamentGlow 6s ease-in-out infinite;
-        }
-
-        .intro::before,
-        .intro::after {
-            animation: fadeLineIn 1s ease-out forwards;
-        }
-
-        @keyframes fadeLineIn {
-            from {
-                width: 0;
-                opacity: 0;
-            }
-            to {
-                width: 40px;
-                opacity: 1;
-            }
-        }
     </style>
 </head>
 <body class="dark-mode has-ogham-column">
