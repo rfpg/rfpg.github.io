@@ -24,6 +24,8 @@
             --transition-fast: 0.2s ease;
             --transition-normal: 0.3s ease;
             --transition-slow: 0.5s ease;
+            --ogham-column-width: 120px;
+            --ogham-design-image: url('https://rfpg.github.io/tattoo/img/ceol-agus-fuaim.png');
         }
 
         * {
@@ -42,6 +44,29 @@
             display: flex;
             flex-direction: column;
             font-weight: 400;
+        }
+
+        .ogham-column {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: var(--ogham-column-width);
+            height: 100vh;
+            background-image:
+                linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)),
+                var(--ogham-design-image);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-right: 1px solid rgba(255, 255, 255, 0.12);
+            z-index: 6;
+        }
+
+        body.has-ogham-column header,
+        body.has-ogham-column main,
+        body.has-ogham-column footer {
+            margin-left: var(--ogham-column-width);
+            width: calc(100% - var(--ogham-column-width));
         }
 
         header {
@@ -237,6 +262,10 @@
 
         /* Responsive adjustments */
         @media (max-width: 768px) {
+            :root {
+                --ogham-column-width: 76px;
+            }
+
             h1 {
                 font-size: 1.5rem;
             }
@@ -261,6 +290,17 @@
         }
 
         @media (max-width: 480px) {
+            .ogham-column {
+                display: none;
+            }
+
+            body.has-ogham-column header,
+            body.has-ogham-column main,
+            body.has-ogham-column footer {
+                margin-left: 0;
+                width: 100%;
+            }
+
             .header-container {
                 flex-direction: column;
                 text-align: center;
@@ -389,7 +429,8 @@
         }
     </style>
 </head>
-<body>
+<body class="dark-mode has-ogham-column">
+    <aside class="ogham-column" aria-hidden="true"></aside>
     <div id="loader" class="loader">
         <div class="dot-loader">
             <div class="dot"></div>
@@ -402,7 +443,7 @@
         <div class="header-container">
             <h1>rfpg design portfolio</h1>
             <button id="themeToggle" class="theme-toggle">
-                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
             </button>
         </div>
     </header>
@@ -453,7 +494,9 @@
             misc: [
                 { name: 'cipher fun', link: 'https://rfpg.github.io/cipher/', icon: 'fas fa-key' },
                 { name: 'cmmas media', link: 'https://rfpg.github.io/cmmas/', icon: 'fas fa-photo-video' },
-                { name: 'chemistry', link: 'https://rfpg.github.io/chemistry/', icon: 'fas fa-flask' }
+                { name: 'chemistry', link: 'https://rfpg.github.io/chemistry/', icon: 'fas fa-flask' },
+                { name: 'music', link: 'https://signalsundertests.com', icon: 'fas fa-record-vinyl' },
+                { name: 'publications', link: 'https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=T5enGp0AAAAJ', icon: 'fas fa-book-open' }
             ]
         };
 
@@ -471,7 +514,7 @@
         const loader = document.getElementById('loader');
 
         // Dark mode toggle functionality
-        let darkMode = false;
+        let darkMode = true;
         themeToggle.addEventListener('click', () => {
             darkMode = !darkMode;
             document.body.classList.toggle('dark-mode', darkMode);
