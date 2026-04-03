@@ -25,7 +25,6 @@
             --transition-normal: 0.3s ease;
             --transition-slow: 0.5s ease;
             --ogham-column-width: 120px;
-            --ogham-design-image: url('https://rfpg.github.io/tattoo/img/ceol-agus-fuaim.png');
         }
 
         * {
@@ -52,14 +51,57 @@
             left: 0;
             width: var(--ogham-column-width);
             height: 100vh;
-            background-image:
-                linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)),
-                var(--ogham-design-image);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background: #fffdf8;
             border-right: 1px solid rgba(255, 255, 255, 0.12);
             z-index: 6;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .ogham-column .svg-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding: 14px 6px;
+            background: #fffdf8;
+            position: relative;
+            z-index: 1;
+            transition: background var(--transition-normal);
+        }
+
+        .ogham-column.is-animating .svg-wrap {
+            background:
+                radial-gradient(circle at top, rgba(185, 151, 87, 0.18), transparent 34%),
+                #fffdf8;
+        }
+
+        .ogham-column .svg-wrap svg {
+            width: 100%;
+            height: 100%;
+            max-width: 180px;
+        }
+
+        .ogham-svg .spine,
+        .ogham-svg .fuaim,
+        .ogham-svg .ceol {
+            stroke: #111;
+            stroke-width: 3;
+            fill: none;
+            transition: opacity .45s ease;
+        }
+
+        .ogham-svg .spine {
+            stroke-width: 6;
+        }
+
+        .ogham-svg.mode-b .ceol {
+            opacity: 0;
+        }
+
+        .ogham-svg.mode-c .fuaim {
+            opacity: 0;
         }
 
         body.has-ogham-column header,
@@ -447,7 +489,65 @@
     </style>
 </head>
 <body class="dark-mode has-ogham-column">
-    <aside class="ogham-column" aria-hidden="true"></aside>
+    <aside class="ogham-column modeA" role="button" tabindex="0" aria-label="Toggle ogham layers">
+        <div class="svg-wrap">
+            <svg id="oghamSvg" class="ogham-svg mode-a" viewBox="0 0 200 800" width="200" aria-hidden="true">
+                <line x1="100" y1="50" x2="100" y2="750" class="spine"></line>
+
+                <g class="fuaim">
+                    <line x1="80" y1="80" x2="120" y2="130"></line>
+                </g>
+
+                <g class="fuaim">
+                    <line x1="70" y1="200" x2="130" y2="200"></line>
+                    <line x1="70" y1="215" x2="130" y2="215"></line>
+                    <line x1="70" y1="230" x2="130" y2="230"></line>
+                    <line x1="70" y1="245" x2="130" y2="245"></line>
+                    <line x1="70" y1="260" x2="130" y2="260"></line>
+                </g>
+
+                <g class="ceol">
+                    <line x1="100" y1="200" x2="140" y2="200"></line>
+                    <line x1="100" y1="215" x2="140" y2="215"></line>
+                </g>
+
+                <g class="ceol">
+                    <line x1="70" y1="320" x2="130" y2="320"></line>
+                    <line x1="70" y1="335" x2="130" y2="335"></line>
+                </g>
+
+                <g class="fuaim">
+                    <line x1="70" y1="320" x2="130" y2="320"></line>
+                </g>
+
+                <g class="ceol">
+                    <line x1="70" y1="440" x2="130" y2="440"></line>
+                    <line x1="70" y1="455" x2="130" y2="455"></line>
+                    <line x1="70" y1="470" x2="130" y2="470"></line>
+                    <line x1="70" y1="485" x2="130" y2="485"></line>
+                </g>
+
+                <g class="fuaim">
+                    <line x1="70" y1="440" x2="130" y2="440"></line>
+                    <line x1="70" y1="455" x2="130" y2="455"></line>
+                    <line x1="70" y1="470" x2="130" y2="470"></line>
+                </g>
+
+                <g class="ceol">
+                    <line x1="100" y1="560" x2="60" y2="560"></line>
+                    <line x1="100" y1="575" x2="60" y2="575"></line>
+                    <line x1="100" y1="590" x2="60" y2="590"></line>
+                    <line x1="100" y1="605" x2="60" y2="605"></line>
+                </g>
+
+                <g class="fuaim">
+                    <line x1="100" y1="560" x2="140" y2="560"></line>
+                    <line x1="100" y1="575" x2="140" y2="575"></line>
+                    <line x1="100" y1="590" x2="140" y2="590"></line>
+                </g>
+            </svg>
+        </div>
+    </aside>
     <div id="loader" class="loader">
         <div class="dot-loader">
             <div class="dot"></div>
@@ -529,6 +629,8 @@
         const buttonContainer = document.getElementById('buttonContainer');
         const themeToggle = document.getElementById('themeToggle');
         const loader = document.getElementById('loader');
+        const oghamColumn = document.querySelector('.ogham-column');
+        const oghamSvg = document.getElementById('oghamSvg');
 
         // Dark mode toggle functionality
         let darkMode = true;
@@ -536,6 +638,55 @@
             darkMode = !darkMode;
             document.body.classList.toggle('dark-mode', darkMode);
             themeToggle.innerHTML = darkMode ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        });
+
+        // Tattoo-style live mode animation: mode-a -> mode-b -> mode-c
+        const oghamModes = [
+            { className: 'mode-a', label: 'Both layers' },
+            { className: 'mode-b', label: 'Fuaim only' },
+            { className: 'mode-c', label: 'Ceol only' }
+        ];
+        let oghamModeIndex = 0;
+        let oghamAnimationTimer = null;
+
+        function setOghamMode(index) {
+            const mode = oghamModes[index];
+            oghamSvg.className = `ogham-svg ${mode.className}`;
+            oghamColumn.setAttribute('aria-label', `Toggle ogham layers. Current mode: ${mode.label}`);
+        }
+
+        function advanceOghamMode() {
+            oghamModeIndex = (oghamModeIndex + 1) % oghamModes.length;
+            setOghamMode(oghamModeIndex);
+        }
+
+        function startOghamAnimation() {
+            if (oghamAnimationTimer !== null) {
+                return;
+            }
+            oghamColumn.classList.add('is-animating');
+            oghamAnimationTimer = window.setInterval(advanceOghamMode, 1800);
+        }
+
+        function stopOghamAnimation() {
+            if (oghamAnimationTimer !== null) {
+                window.clearInterval(oghamAnimationTimer);
+                oghamAnimationTimer = null;
+            }
+            oghamColumn.classList.remove('is-animating');
+        }
+
+        oghamColumn.addEventListener('mouseenter', startOghamAnimation);
+        oghamColumn.addEventListener('mouseleave', stopOghamAnimation);
+        oghamColumn.addEventListener('focus', startOghamAnimation);
+        oghamColumn.addEventListener('blur', stopOghamAnimation);
+
+        oghamColumn.addEventListener('click', advanceOghamMode);
+        oghamColumn.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                advanceOghamMode();
+            }
         });
 
         // Create buttons organized by category with section headers
@@ -587,6 +738,8 @@
 
         // Initialize the page
         window.addEventListener('DOMContentLoaded', () => {
+            setOghamMode(oghamModeIndex);
+
             // Hide loader after 1.5 seconds
             setTimeout(() => {
                 loader.classList.add('hidden');
